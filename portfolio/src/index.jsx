@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from './components/Top/Main';
+import Top from './components/Top/Top';
+import { GlobalStyle } from './Style/global.styles.css';
 
 const App = () => {
   return (
     <>
-      <Main />
+    <GlobalStyle/>
+      <Top />
     </>
   );
 }
