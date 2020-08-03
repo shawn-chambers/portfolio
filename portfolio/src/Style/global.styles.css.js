@@ -11,10 +11,14 @@ export const GlobalStyle = createGlobalStyle`
     font-style: normal;
   }
 
+  body {
+    background-color: #f6f6f6;
+  }
+
   .header {
     font-family: 'Shawnipedia';
     text-align: center;
-    margin-bottom: 0em;
+    margin-top: 2rem;
     font-size: xx-large;
   }
 
@@ -26,9 +30,18 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1.5em;
   }
 
+  .logo {
+    max-height: 200px;
+    max-width: auto;
+  }
+
   .sub-header {
     font-family: Georgia;
     text-align: center;
     margin-bottom: 2.5em;
+  }
+
+  h1 {
+    font-family: 'Shawnipedia';
   }
 `;
