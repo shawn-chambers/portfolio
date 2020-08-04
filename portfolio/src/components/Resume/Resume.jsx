@@ -7,7 +7,6 @@ const Resume = () => {
   return (
     <>
     <ResumeContainer>
-      {/* <div className='gradient-header'>head</div> */}
       <SideBar/>
       <Content/>
     </ResumeContainer>

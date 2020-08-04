@@ -15,19 +15,15 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #f6f6f6;
   }
 
+  li {
+    list-style: none;
+  }
+
   .header {
     font-family: 'Shawnipedia';
     text-align: center;
     margin-top: 2rem;
     font-size: xx-large;
-  }
-
-  span:nth-child(1) {
-    font-size: 1.5em;
-  }
-
-  span:nth-child(3) {
-    font-size: 1.5em;
   }
 
   .logo {
@@ -39,6 +35,14 @@ export const GlobalStyle = createGlobalStyle`
     font-family: Georgia;
     text-align: center;
     margin-bottom: 2.5em;
+  }
+
+  span:nth-child(1) {
+    font-size: 1.5em;
+  }
+
+  span:nth-child(3) {
+    font-size: 1.5em;
   }
 
   h1 {
