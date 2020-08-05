@@ -19,8 +19,10 @@ export const ContentContainer = styled.div`
     font-size: 14px;
   }
   
-  .content-header > ul {
+  .header-tabs {
+    margin-left: -40px;
     padding-left: 0px;
+    float: left;
   }
 
   .tab {

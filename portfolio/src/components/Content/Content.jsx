@@ -8,35 +8,39 @@ const Content = () => {
       <div className='content-gradient-header'></div>
       <div className='content-header-container'>
         <div className='content-header'>
-          <ul>
-            <li className='tab'>
-              <div className='selected tab'>
-                Article
-              </div>
-            </li>
-            <li className='tab'>
-              <div className='unselected tab'>
-                Talk
-              </div>
-            </li>
-          </ul>
-          {/* <ul className='content-header-left'>
-            <li className='tab'>
-              <div className='selected tab'>
-                Read
-              </div>
-            </li>
-            <li className='tab'>
-              <div className='unselected tab'>
-                View source
-              </div>
-            </li>
-            <li className='tab'>
-              <div className='unselected tab'>
-                View history
-              </div>
-            </li>
-          </ul> */}
+          <div className='header-tabs right-tabs'>
+            <ul>
+              <li className='tab'>
+                <div className='selected tab'>
+                  Article
+                </div>
+              </li>
+              <li className='tab'>
+                <div className='unselected tab'>
+                  Talk
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div className='header-tabs left-tabs'>
+            <ul>
+              <li className='tab'>
+                <div className='selected tab'>
+                  Read
+                </div>
+              </li>
+              <li className='tab'>
+                <div className='unselected tab'>
+                  View source
+                </div>
+              </li>
+              <li className='tab'>
+                <div className='unselected tab'>
+                  View history
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className='content-container'>
