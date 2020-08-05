@@ -42,6 +42,58 @@ const ContentsBox = () => {
                     <span>EbayProductDescription</span>
                   </a>
                 </li>
+                <li className='sub-entry'>
+                  <a href='#content-header'>
+                    <span className='content-number'>2.3</span>
+                    <span>Drop.clone</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href='#content-header'>
+                <span className='content-number'>3</span>
+                <span>Professional Experience</span>
+              </a>
+              <ul>
+                <li className='sub-entry'>
+                  <a href='#content-header'>
+                    <span className='content-number'>3.1</span>
+                    <span>Galvanize Inc.</span>
+                  </a>
+                </li>
+                <li className='sub-entry'>
+                  <a href='#content-header'>
+                    <span className='content-number'>3.2</span>
+                    <span>Eat Club</span>
+                  </a>
+                </li>
+                <li className='sub-entry'>
+                  <a href='#content-header'>
+                    <span className='content-number'>3.3</span>
+                    <span>School Aged Child Care</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href='#content-header'>
+                <span className='content-number'>4</span>
+                <span>Education</span>
+              </a>
+              <ul>
+                <li className='sub-entry'>
+                  <a href='#content-header'>
+                    <span className='content-number'>4.1</span>
+                    <span>Hack Reactor</span>
+                  </a>
+                </li>
+                <li className='sub-entry'>
+                  <a href='#content-header'>
+                    <span className='content-number'>4.2</span>
+                    <span>Minnesota State University</span>
+                  </a>
+                </li>
               </ul>
             </li>
           </ul> 

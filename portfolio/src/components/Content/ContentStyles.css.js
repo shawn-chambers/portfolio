@@ -73,7 +73,6 @@ export const ContentContainer = styled.div`
     top: 5em;
     width: auto;
     left: 10em;
-    height: 100%;
     border: 1px solid #a7d7f9;
     border-right-width: 0;
     line-height: 1.6;
