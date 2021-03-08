@@ -1,0 +1,79 @@
+.side-bar {
+  float: left;
+  // position: absolute;
+  top: 0;
+  width: 15em;
+  left: 0;
+  background-color: $color-background;
+  height: 100%;
+  font-family: "Shawnipedia";
+  cursor: help;
+
+  &__menu {
+    margin-bottom: 2rem;
+    text-align: center;
+
+    &--gradient {
+      position: absolute;
+      top: 0;
+      width: 15em;
+      left: 0;
+      height: 5em;
+      background-color: #fbfbfb;
+      background-image: -webkit-linear-gradient(top, #ffffff 50%, $color-background 100%);
+    }
+
+    &--logo {
+      position: relative;
+      max-height: 10rem;
+      z-index: 300;
+    }
+
+    &--header-mini {
+      font-size: 1.2rem;
+      transform: scaleY(1.2);
+
+      & span:nth-child(1) {
+        font-size: 2rem;
+      }
+
+      & span:nth-child(3) {
+        font-size: 2rem;
+      }
+    }
+
+    &--sub-header-mini {
+      font-size: 1.2rem;
+      letter-spacing: 0.6px;
+    }
+  }
+
+  &__content {
+    font-size: 1.2rem;
+    line-height: 1.125em;
+    font-family: sans-serif;
+  }
+
+  &__label {
+    font-size: 1.2rem;
+    color: #54595d;
+    font-weight: normal;
+    background-image: linear-gradient(to right,rgba(200,204,209,0) 0,#c8ccd1 33%,#c8ccd1 66%,rgba(200,204,209,0) 100%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    padding-inline-start: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  ul {
+    padding-inline-start: 20px;
+    margin: 8px 0px;
+  }
+
+  li {
+    list-style-type: none;
+    color: #0645ad;
+    padding: .25em 0;
+  }
+}

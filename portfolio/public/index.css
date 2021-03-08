@@ -19,6 +19,62 @@ body {
   font-weight: normal;
   font-style: normal; }
 
+.side-bar {
+  float: left;
+  top: 0;
+  width: 15em;
+  left: 0;
+  background-color: #f6f6f6;
+  height: 100%;
+  font-family: "Shawnipedia";
+  cursor: help; }
+  .side-bar__menu {
+    margin-bottom: 2rem;
+    text-align: center; }
+    .side-bar__menu--gradient {
+      position: absolute;
+      top: 0;
+      width: 15em;
+      left: 0;
+      height: 5em;
+      background-color: #fbfbfb;
+      background-image: -webkit-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); }
+    .side-bar__menu--logo {
+      position: relative;
+      max-height: 10rem;
+      z-index: 300; }
+    .side-bar__menu--header-mini {
+      font-size: 1.2rem;
+      transform: scaleY(1.2); }
+      .side-bar__menu--header-mini span:nth-child(1) {
+        font-size: 2rem; }
+      .side-bar__menu--header-mini span:nth-child(3) {
+        font-size: 2rem; }
+    .side-bar__menu--sub-header-mini {
+      font-size: 1.2rem;
+      letter-spacing: 0.6px; }
+  .side-bar__content {
+    font-size: 1.2rem;
+    line-height: 1.125em;
+    font-family: sans-serif; }
+  .side-bar__label {
+    font-size: 1.2rem;
+    color: #54595d;
+    font-weight: normal;
+    background-image: linear-gradient(to right, rgba(200, 204, 209, 0) 0, #c8ccd1 33%, #c8ccd1 66%, rgba(200, 204, 209, 0) 100%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    padding-inline-start: 2rem;
+    margin-top: 1.5rem; }
+  .side-bar ul {
+    padding-inline-start: 20px;
+    margin: 8px 0px; }
+  .side-bar li {
+    list-style-type: none;
+    color: #0645ad;
+    padding: .25em 0; }
+
 .logo {
   max-height: 22rem;
   max-width: auto; }
