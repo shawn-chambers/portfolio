@@ -14,19 +14,18 @@ body {
   background-color: #f6f6f6; }
 
 @font-face {
-  font-family: 'Shawnipedia';
-  src: local("LinLibertine"), url("src/../../assets/fonts/LinLibertine_aDRS.ttf") format("truetype");
+  font-family: "Shawnipedia";
+  src: local("LinLibertine"), url(fonts/LinLibertine_R.otf) format("opentype");
   font-weight: normal;
   font-style: normal; }
 
 .logo {
-  max-height: 20rem;
+  max-height: 22rem;
   max-width: auto; }
 
 .home {
   font-family: 'Shawnipedia';
-  text-align: center;
-  position: relative; }
+  text-align: center; }
   .home__header {
     text-align: center;
     margin-top: 2rem;
@@ -39,9 +38,18 @@ body {
       font-family: Georgia;
       font-size: 1.6rem;
       text-align: center;
-      margin-bottom: 2.5rem; }
+      margin-bottom: 5rem; }
+  .home__logo-container .logo {
+    margin-top: 6.5rem; }
+  .home__center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 40rem;
+    width: 80rem; }
   .home__link {
-    position: absolute; }
+    position: absolute;
+    font-size: 1.6rem; }
     .home__link--1 {
       top: 0;
       right: 60%; }
@@ -52,7 +60,7 @@ body {
       top: 20%;
       right: 70%; }
     .home__link--4 {
-      top: 40%;
+      top: 20%;
       left: 70%; }
     .home__link--5 {
       top: 40%;

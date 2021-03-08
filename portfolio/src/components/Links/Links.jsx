@@ -5,7 +5,7 @@ const Links = () => {
     <>
       {[...Array(10)].map((d, i) => {
         return (
-          <div key={i + 1} className={`home__link--${i + 1}`}>
+          <div key={i + 1} className={`home__link home__link--${i + 1}`}>
             {`Link ${i + 1}`}
           </div>
         )

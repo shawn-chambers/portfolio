@@ -1,7 +1,6 @@
 .home {
   font-family: 'Shawnipedia';
   text-align: center;
-  position: relative;
 
   &__header {
     text-align: center;
@@ -20,16 +19,25 @@
       font-family: Georgia;
       font-size: 1.6rem;
       text-align: center;
-      margin-bottom: 2.5rem;
+      margin-bottom: 5rem;
     }
   }
 
-  &__center {
+  &__logo-container .logo {
+    margin-top: 6.5rem;
+  }
 
+  &__center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 40rem;
+    width: 80rem;
   }
 
   &__link {
     position: absolute;
+    font-size: 1.6rem;
 
     &--1 {
       top: 0;
@@ -47,7 +55,7 @@
     }
 
     &--4 {
-      top: 40%;
+      top: 20%;
       left: 70%;
     }
 

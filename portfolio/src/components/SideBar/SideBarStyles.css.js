@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import LinLibertine from '../../assets/fonts/LinLibertine_aDRS.ttf';
+import LinLibertine from '../../assets/fonts/LinLibertine_R.otf';
 
 export const SideBarContainer = styled.div`
   #side-bar {
