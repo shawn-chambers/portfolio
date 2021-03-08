@@ -3,31 +3,40 @@ import styled from 'styled-components';
 export const ContentContainer = styled.div`
   font-family: sans-serif;
 
-  .content-gradient-header {
+  .content-gradient {
     position: absolute;
     top: 0;
-    width: 100%;
+    width: calc(100% - 10em);
     left: 10em;
     height: 5em;
     background-color: #fbfbfb;
     background-image: -webkit-linear-gradient(top,#ffffff 50%,#f6f6f6 100%);
   }
 
+  .content-header-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: calc(100% - 10em);
+    left: 10em;
+    height: 5em;
+  }
+
   .content-header {
     position: absolute;
+    width: 100%;
     bottom: 15px;
     font-size: 14px;
-  }
-  
-  .header-tabs {
-    margin-left: -40px;
+    display: flex;
+    justify-content: space-between;
     padding-left: 0px;
     float: left;
+    margin-top: 20px;
   }
 
   .tab {
     float: left;
-    height: 20px;
+    height: 22px;
     list-style: none;
     font-size: 13px;
     color: #0645ad;
@@ -59,14 +68,25 @@ export const ContentContainer = styled.div`
     background-size: 1px 100%;
   }
 
-  
+  .searchbar-container {
+    padding: .4em 8px 0px 8px;
+  }
 
-  .content-header-container {
+  .searchbar {
+    position: relative;
+  }
+
+  .searchbar > input {
+    border: 1px solid #a2a9b1;
+    color: grey;
+    padding: 0.4em 2em 0.4em 0.4em;
+  }
+
+  .searchbar > img {
+    top: 8px;
+    right: 5px;
     position: absolute;
-    top: 0;
-    width: 100%;
-    left: 10em;
-    height: 5em;
+    height: 12px
   }
 
   .content-container {

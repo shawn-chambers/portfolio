@@ -1,45 +1,47 @@
 import React from 'react';
 import ContentsBox from '../ContentsBox/ContentsBox';
+import SearchBar from '../SearchBar/SearchBar';
 import { ContentContainer } from './ContentStyles.css';
 
 const Content = () => {
   return (
     <ContentContainer>
-      <div className='content-gradient-header'></div>
+      <div className='content-gradient'></div>
       <div className='content-header-container'>
         <div className='content-header'>
-          <div className='header-tabs right-tabs'>
-            <ul>
-              <li className='tab'>
-                <div className='selected tab'>
-                  Article
-                </div>
-              </li>
-              <li className='tab'>
-                <div className='unselected tab'>
-                  Talk
-                </div>
-              </li>
-            </ul>
+          <div className='header-tabs-left'>
+            <div className='tab'>
+              <div className='selected tab'>
+                Article
+              </div>
+            </div>
+            <div className='tab'>
+              <div className='unselected tab'>
+                Talk
+              </div>
+            </div>
           </div>
-          <div className='header-tabs left-tabs'>
-            <ul>
-              <li className='tab'>
-                <div className='selected tab'>
-                  Read
-                </div>
-              </li>
-              <li className='tab'>
-                <div className='unselected tab'>
-                  View source
-                </div>
-              </li>
-              <li className='tab'>
-                <div className='unselected tab'>
-                  View history
-                </div>
-              </li>
-            </ul>
+          <div className='header-tabs-right'>
+            <div className='tab'>
+              <div className='selected tab'>
+                Read
+              </div>
+            </div>
+            <div className='tab'>
+              <div className='unselected tab'>
+                View source
+              </div>
+            </div>
+            <div className='tab'>
+              <div className='unselected tab'>
+                View history
+              </div>
+            </div>
+            <div className='tab'>
+              <div className='searchbar-container'>
+                <SearchBar/>
+              </div>
+            </div>
           </div>
         </div>
       </div>
