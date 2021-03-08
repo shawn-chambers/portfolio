@@ -8,7 +8,7 @@ import { GlobalStyle } from "./Style/global.styles.css";
 const App = () => {
   return (
     <>
-      <GlobalStyle />
+      {/* <GlobalStyle /> */}
       <BrowserRouter>
         <Route path="/" exact component={Top} />
         <Route path="/resume" exact component={Resume} />

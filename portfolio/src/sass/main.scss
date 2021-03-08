@@ -1,1 +1,11 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
 @import "base/base";
+@import "base/typography";
+
+@import "components/logo-main";
+
+@import "pages/home";
+@import "pages/resume";
