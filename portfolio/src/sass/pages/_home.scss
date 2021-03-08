@@ -1,0 +1,84 @@
+.home {
+  font-family: 'Shawnipedia';
+  text-align: center;
+  position: relative;
+
+  &__header {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: xx-large;
+
+    span:nth-child(1) {
+      font-size: 1.5em;
+    }
+  
+    span:nth-child(3) {
+      font-size: 1.5em;
+    }
+
+    &--sub {
+      font-family: Georgia;
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  &__center {
+
+  }
+
+  &__link {
+    position: absolute;
+
+    &--1 {
+      top: 0;
+      right: 60%;
+    }
+    
+    &--2 {
+      top: 0;
+      left: 60%;
+    }
+
+    &--3 {
+      top: 20%;
+      right: 70%;
+    }
+
+    &--4 {
+      top: 40%;
+      left: 70%;
+    }
+
+    &--5 {
+      top: 40%;
+      right: 72%;
+    }
+
+    &--6 {
+      top: 40%;
+      left: 72%;
+    }
+
+    &--7 {
+      top: 60%;
+      right: 70%;
+    }
+
+    &--8 {
+      top: 60%;
+      left: 70%;
+    }
+
+    &--9 {
+      top: 80%;
+      right: 60%;
+    }
+
+    &--10 {
+      top: 80%;
+      left: 60%;
+    }
+  }
+}
