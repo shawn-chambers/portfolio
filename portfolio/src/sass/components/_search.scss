@@ -1,0 +1,21 @@
+.search {
+
+  &__container {
+    padding: .4em .8rem 0rem .8rem;
+  }
+  
+  position: relative;
+
+  & > input {
+    border: 1px solid #a2a9b1;
+    color: grey;
+    padding: 0.4em 2em;
+  }
+
+  & > img {
+    top: .8rem;
+    right: .5rem;
+    position: absolute;
+    height: 1.2rem
+  }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import SideBar from '../SideBar/SideBar';
 import SideBar2 from '../SideBar/SideBar2';
 import Content from '../Content/Content';
+import Content2 from '../Content/Content2';
 import { ResumeContainer } from './ResumeStyles.css';
 
 const Resume = () => {
@@ -9,8 +10,9 @@ const Resume = () => {
     <>
     <ResumeContainer>
       {/* <SideBar/> */}
-      <SideBar2/>
-      <Content/>
+      {/* <SideBar2/> */}
+      {/* <Content/> */}
+      <Content2/>
     </ResumeContainer>
     </>
   )

@@ -5,9 +5,12 @@
 @import "base/base";
 @import "base/typography";
 
+@import "layout/header";
 @import "layout/side-bar";
 
+@import "components/contents-box";
 @import "components/logo-main";
+@import "components/search";
 
 @import "pages/home";
 @import "pages/resume";

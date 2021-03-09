@@ -7,7 +7,7 @@ const SearchBar = () => {
   const options = search ? 'Search Shawnipedia' : 'nope';
 
   return (
-      <div className='searchbar'>
+      <div className='search'>
         <input readOnly value={options} onClick={() => setSearch(!search)}></input>
         <img alt='' src={searchIcon}></img>
       </div>

@@ -1,0 +1,46 @@
+.contents {
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  padding: .7rem;
+  display: table;
+  line-height: 1.6;
+  width: auto;
+  height: auto;
+
+  &__header {
+    margin-top: -1.4rem;
+    margin-bottom: -1.4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__number {
+    color: #202122;
+    padding-left: 0;
+    padding-right: 0.5em;
+  }
+
+  .expander {
+    margin: 1.4rem 0rem 0rem .4rem;
+    font-size: 94%;
+    cursor: pointer;
+    color: #0645ad;
+  }
+
+  ul {
+    padding-left: 0px;
+    font-size: 94%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #0645ad;
+  }
+
+
+  .sub-entry {
+    margin: 0 0 0 2em;
+  }
+
+
+}
