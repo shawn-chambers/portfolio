@@ -7,9 +7,15 @@
   width: calc(100% - #{$resume-offset});
   left: $resume-offset;
   height: 100vh;
+  margin-top: 2rem;
 
   li {
     list-style: none;
+  }
+
+  h1 {
+    font-style: italic;
+    font-family: 'Shawnipedia';
   }
 
   &__content {
@@ -17,14 +23,13 @@
       position: absolute;
       top: 0;
       width: 100%;
-      height: 5em;
+      height: 6em;
       background-color: #fbfbfb;
       background-image: -webkit-linear-gradient(top,#ffffff 50%,#f6f6f6 100%);
     }
 
     &--header-container {
       display: flex;
-      // position: absolute;
       top: 0;
       width: calc(100% - 10em);
       left: 10em;
@@ -43,7 +48,20 @@
         padding: 1.25em 1.5em 1.5em 1.5em;
         background-color: white;
         font-size: 1.4rem;
+
+        & > p {
+          margin: 1.5rem 0;
+        }
       }
     }
+  }
+
+  .content-subheader {
+    font-size: 92%;
+  }
+
+  .keyword {
+    font-weight: bold;
+    font-style: italic;
   }
 }

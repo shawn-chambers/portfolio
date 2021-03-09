@@ -6,7 +6,8 @@
   justify-content: space-between;
   padding-left: 0;
   float: left;
-  margin-top: 2rem;
+  top: 1.9rem;
+  z-index: 2;
 
   &__tab {
     float: left;
@@ -14,24 +15,23 @@
     list-style: none;
     font-size: 1.3rem;
     color: #0645ad;
-    z-index: 2;
-
+    
     &--unselected {
       height: 100%;
-      padding: 1.25em 0.8rem 0px 0.8rem;
       background-image: linear-gradient(to top, #77c1f6 0, #e8f2f8 1px, #ffffff 100%);
       background-size: 1px 100%;
+      padding: 1.4em 0.8rem 0px 0.8rem;
     }
-
+    
     &--selected {
       color: black;
       height: 100%;
       width: 100%;
-      padding: 1.25em 0.8rem 0px 0.8rem;
       background: #ffffff;
       background-image: linear-gradient(to bottom, rgba(167, 215, 249, 0) 0, #a7d7f9 100%);
       background-repeat: no-repeat;
       background-size: 1px 100%;
+      padding: 1.4em 0.8rem 0px 0.8rem;
     }
   }
 }
