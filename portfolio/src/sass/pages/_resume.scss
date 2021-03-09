@@ -4,9 +4,9 @@
   position: absolute;
   float: right;
   top: 0;
-  width: calc(100% - 10em);
-  left: 20em;
-  height: 5em;
+  width: calc(100% - #{$resume-offset});
+  left: $resume-offset;
+  height: 100vh;
 
   li {
     list-style: none;
@@ -17,7 +17,6 @@
       position: absolute;
       top: 0;
       width: 100%;
-      left: 15em;
       height: 5em;
       background-color: #fbfbfb;
       background-image: -webkit-linear-gradient(top,#ffffff 50%,#f6f6f6 100%);
@@ -30,6 +29,21 @@
       width: calc(100% - 10em);
       left: 10em;
       height: 5em;
+    }
+
+    &-container {
+      position: absolute;
+      top: 5em;
+      width: auto;
+      border: 1px solid #a7d7f9;
+      border-right-width: 0;
+      line-height: 1.6;
+      
+      &--body {
+        padding: 1.25em 1.5em 1.5em 1.5em;
+        background-color: white;
+        font-size: 1.4rem;
+      }
     }
   }
 }

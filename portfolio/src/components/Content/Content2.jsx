@@ -14,7 +14,7 @@ const Content = () => {
           <div className="header">
             <div className="header__tabs--left">
               <div className="header__tab">
-                <div className="selected tab">Article</div>
+                <div className="header__tab--selected">Article</div>
               </div>
               <div className="header__tab">
                 <div className="header__tab--unselected">Talk</div>
@@ -38,8 +38,8 @@ const Content = () => {
             </div>
           </div>
         </div>
-        <div className="content-container">
-          <div className="content-body">
+        <div className="resume__content-container">
+          <div className="resume__content-container--body">
             <h1>Shawn Chambers</h1>
             <hr></hr>
             <p className="content-subheader">

@@ -10,7 +10,7 @@ const Resume = () => {
     <>
     <ResumeContainer>
       {/* <SideBar/> */}
-      {/* <SideBar2/> */}
+      <SideBar2/>
       {/* <Content/> */}
       <Content2/>
     </ResumeContainer>

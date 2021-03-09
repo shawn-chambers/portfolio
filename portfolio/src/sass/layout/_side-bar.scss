@@ -15,8 +15,8 @@
     &--gradient {
       position: absolute;
       top: 0;
-      width: 15em;
-      left: 0;
+      width: 100%;
+      left: -4rem;
       height: 5em;
       background-color: #fbfbfb;
       background-image: -webkit-linear-gradient(top, #ffffff 50%, $color-background 100%);
