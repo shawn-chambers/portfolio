@@ -2,9 +2,11 @@
 
   &__container {
     padding: .4em .8rem 0rem .8rem;
+    position: relative;
+    margin-right: 1.5rem;
   }
   
-  position: relative;
+  position: absolute;
 
   & > input {
     border: 1px solid #a2a9b1;

@@ -1,12 +1,13 @@
 import React from "react";
 import ContentsBox from "../ContentsBox/ContentsBox";
 import SearchBar from "../SearchBar/SearchBar";
+import LogIn from "../LogIn/LogIn";
 
 const Content = () => {
   return (
     <>
       <div className="resume">
-        <div className="resume__content--gradient"></div>
+        <LogIn />
         <div className="resume__content--header-container">
           <div className="header">
             <div className="header__tabs--left">

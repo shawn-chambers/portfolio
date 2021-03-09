@@ -6,7 +6,6 @@ const SideBar = () => {
     <>
       <div className="side-bar">
         <div className="side-bar__menu">
-          <div className="side-bar__menu--gradient"></div>
           <img src={smallLogo} className="side-bar__menu--logo" alt="Icon" />
           <div className="side-bar__menu--header-mini">
             <span>S</span>

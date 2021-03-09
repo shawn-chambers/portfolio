@@ -1,10 +1,12 @@
 import React from "react";
 import SideBar from "../SideBar/SideBar";
 import Content from "../Content/Content";
+import Gradient from "../Gradient";
 
 const Resume = () => {
   return (
     <>
+      <Gradient />
       <SideBar />
       <Content />
     </>

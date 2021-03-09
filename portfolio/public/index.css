@@ -10,8 +10,9 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 3rem 1rem;
   background-color: #f6f6f6; }
+  body:not(.gradient) {
+    padding: 1rem 0; }
 
 @font-face {
   font-family: "Shawnipedia";
@@ -20,14 +21,14 @@ body {
   font-style: normal; }
 
 .header {
-  position: absolute;
+  position: relative;
   width: 100%;
   font-size: 1.4rem;
   display: flex;
   justify-content: space-between;
   padding-left: 0;
   float: left;
-  top: 1.9rem;
+  top: 1.2rem;
   z-index: 2; }
   .header__tab {
     float: left;
@@ -52,7 +53,8 @@ body {
 
 .side-bar {
   float: left;
-  top: 0;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
   width: 15em;
   left: 0;
   background-color: #f6f6f6;
@@ -62,14 +64,6 @@ body {
   .side-bar__menu {
     margin-bottom: 2rem;
     text-align: center; }
-    .side-bar__menu--gradient {
-      position: absolute;
-      top: 0;
-      width: calc(100% + 4rem);
-      left: -4rem;
-      height: 5em;
-      background-color: #fbfbfb;
-      background-image: -webkit-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); }
     .side-bar__menu--logo {
       position: relative;
       max-height: 10rem;
@@ -140,14 +134,29 @@ body {
   .contents .sub-entry {
     margin: 0 0 0 2em; }
 
+.gradient {
+  display: inline-block;
+  position: absolute;
+  padding: 0rem;
+  top: 0;
+  width: 100%;
+  height: 8rem;
+  background-color: #fbfbfb;
+  background-image: -webkit-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); }
+
 .logo {
   max-height: 22rem;
   max-width: auto; }
 
+.head-logo {
+  height: 100%; }
+
 .search {
-  position: relative; }
+  position: absolute; }
   .search__container {
-    padding: .4em .8rem 0rem .8rem; }
+    padding: .4em .8rem 0rem .8rem;
+    position: relative;
+    margin-right: 1.5rem; }
   .search > input {
     border: 1px solid #a2a9b1;
     color: grey;
@@ -224,29 +233,34 @@ body {
   top: 0;
   width: calc(100% - 17.5rem);
   left: 17.5rem;
-  height: 100vh;
-  margin-top: 2rem; }
+  height: 100vh; }
   .resume li {
     list-style: none; }
   .resume h1 {
     font-style: italic;
     font-family: 'Shawnipedia'; }
-  .resume__content--gradient {
+  .resume__login {
     position: absolute;
-    top: 0;
-    width: 100%;
-    height: 6em;
-    background-color: #fbfbfb;
-    background-image: -webkit-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); }
+    right: 1.5rem;
+    top: .3rem; }
+    .resume__login--logo-container {
+      display: inline-block;
+      position: relative;
+      top: .4rem;
+      height: 2rem; }
+    .resume__login > span {
+      color: #0645ad;
+      margin-left: .7rem; }
+    .resume__login .status {
+      color: grey;
+      margin-left: 0; }
   .resume__content--header-container {
-    display: flex;
-    top: 0;
-    width: calc(100% - 10em);
-    left: 10em;
-    height: 5em; }
+    top: 2.7rem;
+    width: calc(100% - 17rem);
+    position: relative; }
   .resume__content-container {
     position: absolute;
-    top: 5em;
+    top: 8rem;
     width: auto;
     border: 1px solid #a7d7f9;
     border-right-width: 0;

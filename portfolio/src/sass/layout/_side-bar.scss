@@ -1,6 +1,7 @@
 .side-bar {
   float: left;
-  top: 0;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
   width: 15em;
   left: 0;
   background-color: $color-background;
@@ -11,16 +12,6 @@
   &__menu {
     margin-bottom: 2rem;
     text-align: center;
-
-    &--gradient {
-      position: absolute;
-      top: 0;
-      width: calc(100% + #{$header-gradiant-offset});
-      left: -$header-gradiant-offset;
-      height: 5em;
-      background-color: #fbfbfb;
-      background-image: -webkit-linear-gradient(top, #ffffff 50%, $color-background 100%);
-    }
 
     &--logo {
       position: relative;
