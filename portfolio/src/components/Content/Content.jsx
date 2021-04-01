@@ -1,9 +1,13 @@
 import React from "react";
 import ContentsBox from "../ContentsBox/ContentsBox";
 import SearchBar from "../SearchBar/SearchBar";
+import Footer from "../Footer/Footer";
+import Picture from "../Pictures/Picture";
 import LogIn from "../LogIn/LogIn";
 
-const Content = () => {
+const Content = ({ content }) => {
+  if (!content) return null;
+  console.log("header", content.header)
   return (
     <>
       <div className="resume">
@@ -38,22 +42,21 @@ const Content = () => {
         </div>
         <div className="resume__content-container">
           <div className="resume__content-container--body">
-            <h1>Shawn Chambers</h1>
+            <h1>{content.header}</h1>
             <hr></hr>
             <p className="content-subheader">
               From Shawn Chambers, the foremost expert on{" "}
               <span className="keyword">Shawn Chambers</span>
             </p>
-            <p>
-              <span className="keyword">Shawn Chambers</span> is a Full Stack
-              Engineer currently living in the Sacramento area of Northern
-              California. He enjoys playing guitar (electric, acoustic, and
-              bass) for his noisy creative outlet and enjoys drawing as his
-              ‘quiet, the kids are sleeping’ cathartic time.
-            </p>
-            <ContentsBox />
+            <p>{content.description}</p>
+            <ContentsBox contents={content.box} />
+            {content.pictures &&
+              content.pictures.map((pic, i) => (
+                <Picture picture={pic} key={`pic-${i}`} />
+              ))}
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );

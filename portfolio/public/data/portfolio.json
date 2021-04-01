@@ -1,0 +1,76 @@
+{
+  "links": [
+    "Microservice Architecture",
+    "puppies",
+    3,
+    4,
+    5,
+    6,
+    7,
+    "technical",
+    9,
+    "main"
+  ],
+  "main": {
+    "header": "Shawn Chambers",
+    "description": "Shawn Chambers is a Full Stack Engineer currently living in the Sacramento area of Northern California. He enjoys playing guitar (electric, acoustic, and bass) for his noisy creative outlet and enjoys drawing as his ‘quiet, the kids are sleeping’ cathartic time.",
+    "box": [
+      "Technical Skills",
+      {
+        "title": "Applications",
+        "list": [
+          "ServicesServicesServices",
+          "Lyrics"
+        ]
+      },
+      {
+        "title": "Professional Experience",
+        "list": [
+          "JobApplyPro",
+          "Galvanize Inc.",
+          "Eat Club"
+        ]
+      },
+      {
+        "title": "Education",
+        "list": [
+          "Hack Reactor",
+          "Minnesota State University"
+        ]
+      }
+    ]
+  },
+  "technical": {
+    "header": "Technical Skills",
+    "description": "All Hail techy techerson"
+  },
+  "puppies": {
+    "header": "puppies!!!",
+    "description": "Puppies are great",
+    "box": [
+      "Puppies!",
+      {
+        "title": "I said puppies",
+        "list": [
+          "puppies",
+          "pup",
+          "pupperson"
+        ]
+      }
+    ]
+  },
+  "Microservice Architecture": {
+    "header": "ServicesServicesServices",
+    "description": "Storefront with three microservices working in tandem to display an image carousel, product description, and reviews for a particular product.",
+    "pictures": [
+      {
+        "url": "https://weird-service-pictures.s3-us-west-1.amazonaws.com/1/fount1.jpg",
+        "caption": "The Fount - Du Champ"
+      },
+      {
+        "url": "https://weird-service-pictures.s3-us-west-1.amazonaws.com/1/fount3.jpg",
+        "caption": "The Fount - Du Champ the Sequel"
+      }
+    ]
+  }
+}

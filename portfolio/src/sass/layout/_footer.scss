@@ -1,0 +1,23 @@
+.footer {
+  height: 10rem;
+  background-color: $color-background;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  bottom: -10rem;
+  position: relative;
+  left: 2rem;
+
+  &__content {
+    margin-bottom: 1rem;
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      display: inline-block;
+      color: $color-link;
+      text-decoration: none;
+      margin-right: 1.1rem;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.picture {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: .3rem;
+  background-color: $color-background;
+  border: 1px solid $color-border-grey;
+
+  &__image {
+    height: 24rem;
+    width: auto;
+  }
+
+  &__caption {
+    display: block;
+    font-size: 94%;
+    text-align: left;
+    line-height: 1.4rem;
+    margin: .3rem;
+    font-family: sans-serif;
+  }
+}

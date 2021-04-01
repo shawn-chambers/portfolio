@@ -9,7 +9,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <Route path="/" exact component={Top} />
-        <Route path="/resume" exact component={Resume} />
+        <Route path="/resume/:param" component={Resume} />
       </BrowserRouter>
     </>
   );

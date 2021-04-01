@@ -5,12 +5,14 @@
 @import "base/base";
 @import "base/typography";
 
+@import "layout/footer";
 @import "layout/header";
 @import "layout/side-bar";
 
 @import "components/contents-box";
 @import "components/gradient";
 @import "components/logo-main";
+@import "components/picture-container";
 @import "components/search";
 
 @import "pages/home";

@@ -20,6 +20,22 @@ body {
   font-weight: normal;
   font-style: normal; }
 
+.footer {
+  height: 10rem;
+  background-color: #f6f6f6;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  bottom: -10rem;
+  position: relative;
+  left: 2rem; }
+  .footer__content {
+    margin-bottom: 1rem; }
+  .footer__link:link, .footer__link:visited {
+    display: inline-block;
+    color: #0645ad;
+    text-decoration: none;
+    margin-right: 1.1rem; }
+
 .header {
   position: relative;
   width: 100%;
@@ -151,6 +167,24 @@ body {
 .head-logo {
   height: 100%; }
 
+.picture {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: .3rem;
+  background-color: #f6f6f6;
+  border: 1px solid #c8ccd1; }
+  .picture__image {
+    height: 24rem;
+    width: auto; }
+  .picture__caption {
+    display: block;
+    font-size: 94%;
+    text-align: left;
+    line-height: 1.4rem;
+    margin: .3rem;
+    font-family: sans-serif; }
+
 .search {
   position: absolute; }
   .search__container {
@@ -229,7 +263,6 @@ body {
   font-family: sans-serif;
   font-size: 1.2rem;
   position: absolute;
-  float: right;
   top: 0;
   width: calc(100% - 17.5rem);
   left: 17.5rem;
@@ -238,7 +271,9 @@ body {
     list-style: none; }
   .resume h1 {
     font-style: italic;
-    font-family: 'Shawnipedia'; }
+    font-family: 'Shawnipedia';
+    display: inline-block;
+    background-color: cornflowerblue; }
   .resume__login {
     position: absolute;
     right: 1.5rem;
@@ -259,9 +294,9 @@ body {
     width: calc(100% - 17rem);
     position: relative; }
   .resume__content-container {
-    position: absolute;
+    position: relative;
     top: 8rem;
-    width: auto;
+    width: 100%;
     border: 1px solid #a7d7f9;
     border-right-width: 0;
     line-height: 1.6; }

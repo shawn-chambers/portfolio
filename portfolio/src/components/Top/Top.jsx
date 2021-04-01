@@ -1,6 +1,8 @@
 import React from "react";
+import { Link, Switch, Route } from "react-router-dom";
 import Logo from "../Logo/Logo";
 import Links from "../Links/Links";
+import Resume from "../Resume/Resume";
 
 const Top = () => {
   return (
@@ -14,11 +16,16 @@ const Top = () => {
         <div className="home__header--sub">Web Developer - Sacramento, CA</div>
         <div className="home__center">
           <div className="home__logo-container">
-            <Logo />
+            <Link to="/resume/main">
+              <Logo />
+            </Link>
           </div>
           <Links />
         </div>
       </div>
+      <Switch>
+        <Route path="/resume/:param" component={Resume} />
+      </Switch>
     </>
   );
 };
