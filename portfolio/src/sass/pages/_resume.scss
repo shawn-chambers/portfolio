@@ -15,7 +15,6 @@
     font-style: italic;
     font-family: 'Shawnipedia';
     display: inline-block;
-    background-color: cornflowerblue;
   }
 
   &__login {
@@ -47,7 +46,7 @@
     &--header-container {
       top: 2.7rem;
       width: calc(100% - 17rem);
-      position: relative;
+      position: absolute;
     }
 
     &-container {

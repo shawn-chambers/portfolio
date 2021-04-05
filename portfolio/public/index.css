@@ -272,8 +272,7 @@ body {
   .resume h1 {
     font-style: italic;
     font-family: 'Shawnipedia';
-    display: inline-block;
-    background-color: cornflowerblue; }
+    display: inline-block; }
   .resume__login {
     position: absolute;
     right: 1.5rem;
@@ -292,7 +291,7 @@ body {
   .resume__content--header-container {
     top: 2.7rem;
     width: calc(100% - 17rem);
-    position: relative; }
+    position: absolute; }
   .resume__content-container {
     position: relative;
     top: 8rem;
