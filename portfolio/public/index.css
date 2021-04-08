@@ -153,7 +153,7 @@ body {
 .carousel__slider {
   position: relative;
   overflow: hidden;
-  height: 45rem; }
+  height: 42rem; }
   .carousel__slider-tray {
     transition: transform 0.5s;
     transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -218,8 +218,21 @@ body {
     display: flex;
     justify-content: center; }
   .picture__navigation {
+    position: relative;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    bottom: 5rem;
+    left: 1rem;
+    width: 95%; }
+    .picture__navigation button {
+      padding: 0px 1rem;
+      border: 1px solid transparent;
+      border-radius: 2px;
+      height: 2rem;
+      opacity: .7;
+      transition: opacity 0.5s ease-in; }
+      .picture__navigation button:hover {
+        opacity: 1; }
   .picture__caption {
     display: block;
     font-size: 94%;

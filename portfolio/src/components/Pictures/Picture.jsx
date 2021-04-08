@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {
   CarouselProvider,
   Slide,
@@ -8,6 +8,7 @@ import {
 } from "pure-react-carousel";
 
 const Picture = ({ pictures }) => {
+
   return (
     <div className="picture">
       <CarouselProvider
@@ -30,10 +31,12 @@ const Picture = ({ pictures }) => {
               </Slide>
             ))}
           </Slider>
-          <div className="picture__navigation">
-            <ButtonBack>{"<"}</ButtonBack>
-            <ButtonNext>{">"}</ButtonNext>
-          </div>
+          {pictures.length > 1 ? (
+            <div className="picture__navigation">
+              <ButtonBack> &larr;  </ButtonBack>
+              <ButtonNext> &rarr; </ButtonNext>
+            </div>
+          ) : null}
         </div>
       </CarouselProvider>
     </div>
