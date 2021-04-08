@@ -1,14 +1,30 @@
 .picture {
-  display: inline-block;
-  height: auto;
-  width: auto;
-  padding: .3rem;
+  display: block;
+  width: 47rem;
+  padding: 0.3rem;
   background-color: $color-background;
   border: 1px solid $color-border-grey;
+  float: right;
+  margin: .8rem;
+
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
 
   &__image {
-    height: 24rem;
+    height: 40rem;
     width: auto;
+    max-width: 46rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
   }
 
   &__caption {
@@ -16,7 +32,7 @@
     font-size: 94%;
     text-align: left;
     line-height: 1.4rem;
-    margin: .3rem;
+    margin: 0.3rem;
     font-family: sans-serif;
   }
 }
