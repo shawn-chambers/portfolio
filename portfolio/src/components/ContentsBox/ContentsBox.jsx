@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const ContentsBox = ({ contents }) => {
   const [display, hideDisplay] = useState(true);
@@ -25,29 +26,48 @@ const ContentsBox = ({ contents }) => {
               if (typeof skill !== "object") {
                 return (
                   <li key={`${skill}`}>
-                    <a href="#content-header">
+                    <div>
                       <span className="contents__number">{i + 1}</span>
-                      <span>{skill}</span>
-                    </a>
+                      <a href="#content-header">{skill}</a>
+                    </div>
                   </li>
                 );
               } else {
                 return (
                   <li key={`${skill}-${i}`}>
-                    <a href="#content-header">
+                    <div>
                       <span className="contents__number">{i + 1}</span>
-                      <span>{skill.title}</span>
+                      <a href="#content-header">{skill.title}</a>
                       <ul>
-                        {skill.list.map((item, j) => (
-                            <li className="sub-entry" key={j * i}>
-                              <a href="#content-header">
-                                <span className="contents__number">{`${i + 1}.${j + 1}`}</span>
-                                <span>{item}</span>
-                              </a>
-                            </li>
-                        ))}
+                        {skill.list.map((item, j) => {
+                          if (typeof item !== "object") {
+                            return (
+                              <li className="sub-entry" key={j * i}>
+                                <a href="#content-header">
+                                  <span className="contents__number">{`${
+                                    i + 1
+                                  }.${j + 1}`}</span>
+                                  <span>{item}</span>
+                                </a>
+                              </li>
+                            );
+                          } else {
+                            return (
+                              <li className="sub-entry" key={j * i}>
+                                <div>
+                                  <span className="contents__number">{`${
+                                    i + 1
+                                  }.${j + 1}`}</span>
+                                  <Link to={`/resume/${item.destination}`}>
+                                    <div href="#content-header">{item.link}</div>
+                                  </Link>
+                                </div>
+                              </li>
+                            );
+                          }
+                        })}
                       </ul>
-                    </a>
+                    </div>
                   </li>
                 );
               }

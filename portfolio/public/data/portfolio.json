@@ -21,7 +21,7 @@
       {
         "title": "Applications",
         "list": [
-          "ServicesServicesServices",
+          {"link": "ServicesServicesServices", "destination": "Microservice Architecture"},
           "Lyrics"
         ]
       },
@@ -75,16 +75,28 @@
     "description": [
       "Storefront with three microservices working in tandem to display an image carousel, product description, and reviews for a particular product. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores expedita enim, eaque id iste maxime at aliquam mollitia! Dolorem doloremque iste dolor adipisci mollitia nihil ad, animi reprehenderit officia minus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos eum delectus adipisci dolorum officia esse, ipsum aspernatur incidunt voluptates temporibus, asperiores quisquam nulla quaerat eaque omnis saepe, voluptatem libero molestias.",
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit numquam amet quos totam? Error obcaecati deleniti similique, sequi laborum itaque dolor reiciendis excepturi libero harum commodi tempore fugit. Repudiandae, vitae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ut necessitatibus ullam corporis dolores cum laborum commodi accusantium rem. Repudiandae maxime error dolorem? Maiores mollitia earum consectetur quia facere magnam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam aliquam excepturi eum odio, id dolor deserunt ad sit omnis beatae voluptate, error inventore nihil. Eius ea similique laboriosam tempora! Assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Ea dolore soluta esse nihil, debitis reprehenderit, numquam ducimus qui consectetur autem error harum vero dignissimos. Laborum eum iste cupiditate quisquam laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis nobis, saepe repellat rem ipsa magni accusantium porro maiores quos eius hic, repellendus aliquam earum consequuntur sequi perferendis dolorem omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam veniam porro ratione ea quae quam, odio reprehenderit, praesentium totam, suscipit amet recusandae perspiciatis? Molestias esse ipsam expedita. Fuga, incidunt nam."
+      "Ea dolore soluta esse nihil, debitis reprehenderit, numquam ducimus qui consectetur autem error harum vero dignissimos. Laborum eum iste cupiditate quisquam laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis nobis, saepe repellat rem ipsa magni accusantium porro maiores quos eius hic, repellendus aliquam earum consequuntur sequi perferendis dolorem omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam veniam porro ratione ea quae quam, odio reprehenderit, praesentium totam, suscipit amet recusandae perspiciatis? Molestias esse ipsam expedita. Fuga, incidunt nam. I love rock 'n roll."
     ],
     "pictures": [
       {
-        "url": "https://weird-service-pictures.s3-us-west-1.amazonaws.com/1/fount1.jpg",
-        "caption": "The Fount - Du Champ"
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/microservice.png",
+        "caption": "Store front with three independant microservices"
       },
       {
-        "url": "https://weird-service-pictures.s3-us-west-1.amazonaws.com/1/fount3.jpg",
-        "caption": "The Fount - Du Champ the Sequel"
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/proxy-functionality.gif",
+        "caption": "Proxy server fetches three bundles and forwards requests to each server"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/image-carousel.gif",
+        "caption": "Image carousel"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/product-description.gif",
+        "caption": "Display updates with mocked data from Postgres DB"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/reviews.gif",
+        "caption": "Infinite scroll fetching 10 reviews at a time"
       }
     ]
   }

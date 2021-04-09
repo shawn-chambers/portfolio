@@ -1,25 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import axios from 'axios';
 
-const Links = () => {
-  const [links, setLinks] = useState([]);
-
-  useEffect(() => {
-    axios.get('/data/portfolio.json')
-      .then(({data}) => {
-        console.log('links', data);
-        setLinks(data.links);
-      })
-      .catch(err => {
-        console.log(err);
-      })
-  }, [])
-
-  if (links.length === undefined) {
-    return null;
-  }
-
+const Links = ({ links }) => {
   return (
     <>
       {links.map((d, i) => {

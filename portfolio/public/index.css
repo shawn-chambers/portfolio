@@ -145,6 +145,7 @@ body {
     padding-left: 0px;
     font-size: 94%; }
   .contents a {
+    display: inline-block;
     text-decoration: none;
     color: #0645ad; }
   .contents .sub-entry {
@@ -230,7 +231,7 @@ body {
       border-radius: 2px;
       height: 2rem;
       opacity: .7;
-      transition: opacity 0.5s ease-in; }
+      transition: opacity 0.3s ease-in; }
       .picture__navigation button:hover {
         opacity: 1; }
   .picture__caption {
@@ -358,7 +359,8 @@ body {
     .resume__content-container--body {
       padding: 1.25em 1.5em 1.5em 1.5em;
       background-color: white;
-      font-size: 1.4rem; }
+      font-size: 1.4rem;
+      overflow: hidden; }
       .resume__content-container--body > p {
         margin: 1.5rem 0; }
   .resume .content-subheader {

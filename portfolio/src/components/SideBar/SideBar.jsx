@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import smallLogo from "../../assets/images/small_shawnipedia.png";
 
 const SideBar = () => {
@@ -6,7 +7,9 @@ const SideBar = () => {
     <>
       <div className="side-bar">
         <div className="side-bar__menu">
-          <img src={smallLogo} className="side-bar__menu--logo" alt="Icon" />
+          <Link to="/">
+            <img src={smallLogo} className="side-bar__menu--logo" alt="Icon" />
+          </Link>
           <div className="side-bar__menu--header-mini">
             <span>S</span>
             <span>HAWN CHAMBER</span>
