@@ -30,13 +30,12 @@ const Top = () => {
         <div className="home__header--sub">Web Developer - Sacramento, CA</div>
         <div className="home__center">
           <div className="home__logo-container">
-            <Link to="/resume/main">
+            <Link to="/resume/Resume">
               <Logo />
             </Link>
           </div>
           {resume.links && <Links links={resume.links} />}
         </div>
-        {console.log("resume state", resume)}
       </div>
       <Switch>
         <Route

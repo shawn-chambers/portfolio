@@ -1,40 +1,60 @@
 {
   "links": [
+    "Resume",
     "Microservice Architecture",
-    "puppies",
-    3,
-    4,
-    5,
-    6,
+    "Job Apply Pro",
+    "Pup Fetcher",
+    "Lyric Usage Visualizer",
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shawn-chambers-67b03b1a3/"
+    },
     7,
-    "technical",
-    9,
-    "main"
+    "Technical Skills",
+    {
+      "title": "Resume Doc",
+      "url": "https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing"
+    },
+    10
   ],
-  "main": {
+  "Resume": {
     "header": "Shawn Chambers",
     "description": [
-      "Shawn Chambers is a Full Stack Engineer currently living in the Sacramento area of Northern California. He enjoys playing guitar (electric, acoustic, and bass) for his noisy creative outlet and enjoys drawing as his ‘quiet, the kids are sleeping’ cathartic time."
+      "Shawn Chambers is a Full Stack Engineer currently living in the Sacramento area of Northern California. He enjoys playing guitar (electric, acoustic, and bass) for his noisy creative outlet and enjoys drawing as his ‘quiet, the kids are sleeping’ cathartic time.",
+      {"header": "Professional Experience", "content": "I worked at places doing things. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam tempora perferendis mollitia quaerat explicabo expedita sapiente eveniet vel, autem non quod quo, dicta doloremque itaque minima architecto ullam. Veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum illum eveniet voluptate qui! Dolores, ex, rem molestias provident magni sint ratione velit distinctio eum enim beatae similique non rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatum repellat minima in molestiae a, autem culpa quaerat non facere similique, neque ratione? Cupiditate dignissimos voluptate esse, quaerat rem necessitatibus?"},
+      {"header": "Professional Experience", "content": "I worked at places doing things. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam tempora perferendis mollitia quaerat explicabo expedita sapiente eveniet vel, autem non quod quo, dicta doloremque itaque minima architecto ullam. Veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum illum eveniet voluptate qui! Dolores, ex, rem molestias provident magni sint ratione velit distinctio eum enim beatae similique non rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatum repellat minima in molestiae a, autem culpa quaerat non facere similique, neque ratione? Cupiditate dignissimos voluptate esse, quaerat rem necessitatibus?"}
     ],
     "box": [
-      "Technical Skills",
       {
-        "title": "Applications",
+        "link": "Technical Skills",
+        "destination": "Technical Skills"
+      },
+      {
+        "header": "Applications",
         "list": [
-          {"link": "ServicesServicesServices", "destination": "Microservice Architecture"},
-          "Lyrics"
+          {
+            "link": "ServicesServicesServices",
+            "destination": "Microservice Architecture"
+          },
+          {
+            "link": "Lyric Usage Visualizer",
+            "destination": "Lyric Usage Visualizer"
+          }
         ]
       },
       {
-        "title": "Professional Experience",
+        "header": "Professional Experience",
         "list": [
-          "JobApplyPro",
+          {
+            "link": "JobApplyPro",
+            "destination": "Job Apply Pro"
+          },
           "Galvanize Inc.",
           "Eat Club"
         ]
       },
       {
-        "title": "Education",
+        "header": "Education",
         "list": [
           "Hack Reactor",
           "Minnesota State University"
@@ -42,7 +62,7 @@
       }
     ]
   },
-  "technical": {
+  "Technical Skills": {
     "header": "Technical Skills",
     "description": [
       "All Hail techy techerson"
@@ -51,21 +71,104 @@
       {
         "url": "https://weird-service-pictures.s3-us-west-1.amazonaws.com/1/fount1.jpg"
       }
-    ]
-  },
-  "puppies": {
-    "header": "puppies!!!",
-    "description": [
-      "Puppies are great"
     ],
     "box": [
-      "Puppies!",
       {
-        "title": "I said puppies",
+        "link": "Technical Skills",
+        "destination": "Technical Skills"
+      },
+      {
+        "header": "Applications",
         "list": [
-          "puppies",
-          "pup",
-          "pupperson"
+          {
+            "link": "ServicesServicesServices",
+            "destination": "Microservice Architecture"
+          },
+          {
+            "link": "Lyric Usage Visualizer",
+            "destination": "Lyric Usage Visualizer"
+          }
+        ]
+      },
+      {
+        "header": "Professional Experience",
+        "list": [
+          {
+            "link": "JobApplyPro",
+            "destination": "Job Apply Pro"
+          },
+          "Galvanize Inc.",
+          "Eat Club"
+        ]
+      },
+      {
+        "header": "Education",
+        "list": [
+          "Hack Reactor",
+          "Minnesota State University"
+        ]
+      }
+    ]
+  },
+  "Job Apply Pro": {
+    "header": "Job Apply Pro",
+    "description": [
+      "A job about applying for jobs to help me get a good job once I apply for it with the tool we made to apply for jobs."
+    ]
+  },
+  "Lyric Usage Visualizer": {
+    "header": "Say What? (ehhh...)",
+    "description": [
+      "App used to display lyric data of Billboard's Top 100 songs of each of the last 50 years (1970 - 2020).",
+      "Lyric data was gathered by programatically scraping GENUIS's lyric database and then inserted into an optimized Postgres DB."
+    ],
+    "pictures": [
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/placeholder/coming-soon.png"
+      }
+    ],
+    "box": [
+      {
+        "header": "Front End",
+        "list": [
+          "React",
+          "D3.js",
+          "Webpack"
+        ]
+      },
+      {
+        "header": "Back End",
+        "list": [
+          "Node",
+          "Express",
+          "Postgress",
+          "Sequelize"
+        ]
+      }
+    ]
+  },
+  "Pup Fetcher": {
+    "header": "Pup Fetcher: React Hooks Lesson",
+    "description": [
+      "\"Pup Fetcher\" is a demo-repository made for a live coding lecture during my time as a Software Engineering Immersive Resident (SEIR) working for Hack Reactor's Remote Campus. Speaking to students familiar with React's class components, I aimed to give an introduction and basic demonstration of React Hooks. Topics included the useState and useEffect hooks as well as a quick example of a reusable custom hook.",
+      "The slide deck and github repo can be used in conjunction with the video recording of my talk to walk through each concept covered."
+    ],
+    "box": [
+      {
+        "header": "Lesson Resources",
+        "list": [
+          {
+            "link": "Video Lecture",
+            "url": "https://youtu.be/kFxgjBQib9E"
+          },
+          {
+            "link": "Demo Repo",
+            "url": "https://github.com/shawn-chambers/pup-fetcher"
+          },
+          {
+            "link": "Lesson Slide-deck",
+            "url": "https://slides.com/shawnchambers/hooks"
+          }
         ]
       }
     ]
@@ -73,14 +176,19 @@
   "Microservice Architecture": {
     "header": "ServicesServicesServices",
     "description": [
-      "Storefront with three microservices working in tandem to display an image carousel, product description, and reviews for a particular product. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores expedita enim, eaque id iste maxime at aliquam mollitia! Dolorem doloremque iste dolor adipisci mollitia nihil ad, animi reprehenderit officia minus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos eum delectus adipisci dolorum officia esse, ipsum aspernatur incidunt voluptates temporibus, asperiores quisquam nulla quaerat eaque omnis saepe, voluptatem libero molestias.",
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit numquam amet quos totam? Error obcaecati deleniti similique, sequi laborum itaque dolor reiciendis excepturi libero harum commodi tempore fugit. Repudiandae, vitae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ut necessitatibus ullam corporis dolores cum laborum commodi accusantium rem. Repudiandae maxime error dolorem? Maiores mollitia earum consectetur quia facere magnam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam aliquam excepturi eum odio, id dolor deserunt ad sit omnis beatae voluptate, error inventore nihil. Eius ea similique laboriosam tempora! Assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Ea dolore soluta esse nihil, debitis reprehenderit, numquam ducimus qui consectetur autem error harum vero dignissimos. Laborum eum iste cupiditate quisquam laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis nobis, saepe repellat rem ipsa magni accusantium porro maiores quos eius hic, repellendus aliquam earum consequuntur sequi perferendis dolorem omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam veniam porro ratione ea quae quam, odio reprehenderit, praesentium totam, suscipit amet recusandae perspiciatis? Molestias esse ipsam expedita. Fuga, incidunt nam. I love rock 'n roll."
+      "ServicesServicesServices is a fake product page used as an example of mircoservice archetecture. Three 'microservices', a product description service, an image carousel and a reviews service can work independantly but are served together in one html file through a reverse-proxy server.",
+      "The initial GET request from the browser goes to the proxy, retrieving the three service bundles. These bundles each individually make requests to the proxy which are forwarded to their individual NodeJS servers. The node servers query their database for product data based on the product ID specified in the url. Each service independantly displays the data on the browser, decoupling each service's functionality.",
+      "The product description service shows a persisted description, feature list, and color and size options specific to each product. The image carousel can be navigated with buttons, dragging the main image, or clicking a thumbnail. The reviews section has an infinite scroll, fetching 10 more reviews everytime the user reaches the bottom of the page.",
+      "All data was generated programatically using custom generation scripts and fakerjs."
     ],
     "pictures": [
       {
         "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/microservice.png",
         "caption": "Store front with three independant microservices"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/architecture.png",
+        "caption": "App architecture"
       },
       {
         "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/proxy-functionality.gif",
@@ -97,6 +205,28 @@
       {
         "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/reviews.gif",
         "caption": "Infinite scroll fetching 10 reviews at a time"
+      }
+    ],
+    "box": [
+      {
+        "header": "Front End",
+        "list": [
+          "React",
+          "Webpack",
+          "Styled-Components"
+        ]
+      },
+      {
+        "header": "Back End",
+        "list": [
+          "Express",
+          "Node",
+          "Sequelize",
+          "Postgres",
+          "MongoDB",
+          "Mongoose",
+          "Jest / Supertest"
+        ]
       }
     ]
   }

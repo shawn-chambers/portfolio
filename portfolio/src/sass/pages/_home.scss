@@ -1,5 +1,5 @@
 .home {
-  font-family: 'Shawnipedia';
+  font-family: "Shawnipedia";
   text-align: center;
 
   &__header {
@@ -10,7 +10,7 @@
     span:nth-child(1) {
       font-size: 1.5em;
     }
-  
+
     span:nth-child(3) {
       font-size: 1.5em;
     }
@@ -38,12 +38,18 @@
   &__link {
     position: absolute;
     font-size: 1.6rem;
+    color: $color-link;
+    
+    &:link,
+    &:visited {
+      color: $color-link;
+    }
 
     &--1 {
       top: 0;
       right: 60%;
     }
-    
+
     &--2 {
       top: 0;
       left: 60%;

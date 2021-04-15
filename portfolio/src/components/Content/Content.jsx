@@ -5,7 +5,7 @@ import Picture from "../Pictures/Picture";
 import Header from "../Header/Header";
 
 const Content = ({ content }) => {
-  if (!content) return null;
+  let displayBox = false;
 
   return (
     <>
@@ -21,10 +21,39 @@ const Content = ({ content }) => {
             </p>
             {content.pictures && <Picture pictures={content.pictures} />}
             {content.description.map((paragraph, i) => {
-              return <p key={`paragraph-${i}`}>{paragraph}</p>;
+              if (paragraph.header) {
+                if (i === 1) {
+                  displayBox = true;
+                  return (
+                    <>
+                      <h3 className={paragraph.header}>{paragraph.header}</h3>
+                      <p key={`paragraph-${i}`}>{paragraph.content}</p>
+                      <ContentsBox contents={content.box} />
+                    </>
+                  );
+                }
+                return (
+                  <>
+                    <h3 className={paragraph.header}>{paragraph.header}</h3>
+                    <p key={`paragraph-${i}`}>{paragraph.content}</p>
+                  </>
+                );
+              } else {
+                if (i === 1) {
+                  displayBox = true;
+                  return (
+                    <>
+                      <p key={`paragraph-${i}`}>{paragraph}</p>
+                      <ContentsBox contents={content.box} />
+                    </>
+                  );
+                }
+                return <p key={`paragraph-${i}`}>{paragraph}</p>;
+              }
             })}
-            <ContentsBox contents={content.box} />
+          {!displayBox ? <ContentsBox contents={content.box} /> : null}
           </div>
+          {console.log("display box?", displayBox)}
         </div>
         <Footer />
       </div>

@@ -17,7 +17,7 @@ const Resume = (props) => {
     <>
       <Gradient />
       <SideBar />
-      <Content content={page} />
+      {page && <Content content={page} />}
     </>
   );
 };
