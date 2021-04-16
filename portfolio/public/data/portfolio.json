@@ -21,8 +21,16 @@
     "header": "Shawn Chambers",
     "description": [
       "Shawn Chambers is a Full Stack Engineer currently living in the Sacramento area of Northern California. He enjoys playing guitar (electric, acoustic, and bass) for his noisy creative outlet and enjoys drawing as his ‘quiet, the kids are sleeping’ cathartic time.",
-      {"header": "Professional Experience", "content": "I worked at places doing things. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam tempora perferendis mollitia quaerat explicabo expedita sapiente eveniet vel, autem non quod quo, dicta doloremque itaque minima architecto ullam. Veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum illum eveniet voluptate qui! Dolores, ex, rem molestias provident magni sint ratione velit distinctio eum enim beatae similique non rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatum repellat minima in molestiae a, autem culpa quaerat non facere similique, neque ratione? Cupiditate dignissimos voluptate esse, quaerat rem necessitatibus?"},
-      {"header": "Professional Experience", "content": "I worked at places doing things. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam tempora perferendis mollitia quaerat explicabo expedita sapiente eveniet vel, autem non quod quo, dicta doloremque itaque minima architecto ullam. Veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum illum eveniet voluptate qui! Dolores, ex, rem molestias provident magni sint ratione velit distinctio eum enim beatae similique non rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatum repellat minima in molestiae a, autem culpa quaerat non facere similique, neque ratione? Cupiditate dignissimos voluptate esse, quaerat rem necessitatibus?"}
+      {
+        "link": true,
+        "header": "Professional Experience",
+        "content": "I worked at places doing things. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam tempora perferendis mollitia quaerat explicabo expedita sapiente eveniet vel, [RESUME-long-word-linkage https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing] non quod quo, dicta doloremque itaque minima architecto ullam. Veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum illum eveniet voluptate qui! Dolores, ex, rem molestias provident magni sint ratione velit distinctio eum enim beatae similique non rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatum repellat minima in molestiae a, autem culpa quaerat non facere similique, neque ratione? Cupiditate dignissimos voluptate esse, quaerat rem necessitatibus?"
+      },
+      {
+        "link": true,
+        "header": "Professional Experience",
+        "content": "I worked at places doing things. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam tempora perferendis mollitia quaerat explicabo expedita sapiente eveniet vel, [link https://www.youtube.com] autem non quod quo, dicta doloremque itaque minima architecto ullam. Veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum illum eveniet voluptate qui! Dolores, ex, rem molestias provident magni sint ratione velit distinctio eum enim beatae similique non rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatum repellat minima in molestiae a, autem culpa quaerat non facere similique, neque ratione? Cupiditate dignissimos voluptate esse, quaerat rem necessitatibus?"
+      }
     ],
     "box": [
       {
@@ -208,6 +216,15 @@
       }
     ],
     "box": [
+      {
+        "header": "Github",
+        "list": [
+          {
+            "link": "Repo",
+            "url": "https://github.com/shawn-chambers/servicesServicesServices"
+          }
+        ]
+      },
       {
         "header": "Front End",
         "list": [

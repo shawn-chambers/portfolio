@@ -5,7 +5,22 @@ import Picture from "../Pictures/Picture";
 import Header from "../Header/Header";
 
 const Content = ({ content }) => {
-  let displayBox = false;
+  const handleLinks = (string) => {
+    let content = string.split("[").map((el) => el.split("]"));
+    let [linkWord, url] = content[1][0].split(" ");
+
+    return (
+      <>
+        <span>{content[0][0]}</span>
+        <span>
+          <a href={url} target="_blank" rel="noreferrer noopener">
+            {linkWord}
+          </a>
+        </span>
+        <span>{content[1][1]}</span>
+      </>
+    );
+  };
 
   return (
     <>
@@ -21,39 +36,26 @@ const Content = ({ content }) => {
             </p>
             {content.pictures && <Picture pictures={content.pictures} />}
             {content.description.map((paragraph, i) => {
-              if (paragraph.header) {
-                if (i === 1) {
-                  displayBox = true;
-                  return (
-                    <>
-                      <h3 className={paragraph.header}>{paragraph.header}</h3>
-                      <p key={`paragraph-${i}`}>{paragraph.content}</p>
-                      <ContentsBox contents={content.box} />
-                    </>
-                  );
-                }
+              if (typeof paragraph === "object") {
                 return (
                   <>
-                    <h3 className={paragraph.header}>{paragraph.header}</h3>
-                    <p key={`paragraph-${i}`}>{paragraph.content}</p>
+                    {console.log("paragraph", paragraph)}
+                    {paragraph.header ? (
+                      <h3 className={paragraph.header}>{paragraph.header}</h3>
+                    ) : null}
+                    <p key={`paragraph-${i}`}>
+                      {paragraph.link
+                        ? handleLinks(paragraph.content)
+                        : paragraph.content}
+                    </p>
                   </>
                 );
               } else {
-                if (i === 1) {
-                  displayBox = true;
-                  return (
-                    <>
-                      <p key={`paragraph-${i}`}>{paragraph}</p>
-                      <ContentsBox contents={content.box} />
-                    </>
-                  );
-                }
                 return <p key={`paragraph-${i}`}>{paragraph}</p>;
               }
             })}
-          {!displayBox ? <ContentsBox contents={content.box} /> : null}
+            <ContentsBox contents={content.box} />
           </div>
-          {console.log("display box?", displayBox)}
         </div>
         <Footer />
       </div>
