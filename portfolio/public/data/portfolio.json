@@ -1,41 +1,93 @@
 {
   "links": [
     "Resume",
-    "Microservice Architecture",
     "Job Apply Pro",
+    {
+      "title": "Resume Doc",
+      "url": "https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing"
+    },
     "Pup Fetcher",
     "Lyric Usage Visualizer",
+    "Microservice Architecture",
     {
       "title": "LinkedIn",
       "url": "https://www.linkedin.com/in/shawn-chambers-67b03b1a3/"
     },
     7,
     "Technical Skills",
-    {
-      "title": "Resume Doc",
-      "url": "https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing"
-    },
     10
   ],
   "Resume": {
     "header": "Shawn Chambers",
     "description": [
-      "Shawn Chambers is a Full Stack Engineer currently living in the Sacramento area of Northern California. He enjoys playing guitar (electric, acoustic, and bass) for his noisy creative outlet and enjoys drawing as his ‘quiet, the kids are sleeping’ cathartic time.",
       {
         "link": true,
-        "header": "Professional Experience",
-        "content": "I worked at places doing things. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam tempora perferendis mollitia quaerat explicabo expedita sapiente eveniet vel, [RESUME-long-word-linkage https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing] non quod quo, dicta doloremque itaque minima architecto ullam. Veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum illum eveniet voluptate qui! Dolores, ex, rem molestias provident magni sint ratione velit distinctio eum enim beatae similique non rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatum repellat minima in molestiae a, autem culpa quaerat non facere similique, neque ratione? Cupiditate dignissimos voluptate esse, quaerat rem necessitatibus?"
+        "content": "I am a {\"link\": \"Full Stack Engineer\", \"url\": \"https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing\"}  currently living in the Sacramento area of Northern California. I enjoy playing guitar (electric, acoustic, and bass) for my noisy, creative outlet and drawing as my ‘quiet, the kids are sleeping’ cathartic time."
       },
       {
-        "link": true,
-        "header": "Professional Experience",
-        "content": "I worked at places doing things. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam tempora perferendis mollitia quaerat explicabo expedita sapiente eveniet vel, [link https://www.youtube.com] autem non quod quo, dicta doloremque itaque minima architecto ullam. Veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum illum eveniet voluptate qui! Dolores, ex, rem molestias provident magni sint ratione velit distinctio eum enim beatae similique non rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatum repellat minima in molestiae a, autem culpa quaerat non facere similique, neque ratione? Cupiditate dignissimos voluptate esse, quaerat rem necessitatibus?"
+        "section": "Professional Experience"
+      },
+      {
+        "header": "Job Apply Pro"
+      },
+      "Job Apply Pro is a professional job search CRM. It gives users the ability to submit personalized job applications anywhere on the internet in a few clicks.",
+      "My experience working at Job Apply Pro includes but isn't limited to:",
+      {
+        "content": "• Building out of form validation and user authentication using role based access control",
+        "indent": true
+      },
+      {
+        "content": "• Building and managing UI / base components using Javascript, React, and TypeScript",
+        "indent": true
+      },
+      {
+        "content": "• Implementing error handling and event notification system",
+        "indent": true
+      },
+      {
+        "content": "• Building and managing marketing site using Next JS and React",
+        "indent": true
+      },
+      "Marketing site coming soon...",
+      {
+        "box": true
+      },
+      {
+        "header": "Galvanize Inc. / Hack Reactor"
+      },
+      "Hack Reactor is an immersive coding bootcamp with campuses across the U.S. and online. Employed by Galvanize Inc., I worked as a Software Engineering Immersive Resident (SEIR) at Hack Reactor's remote, part-time campus. Working in conjunction with the Campus Lead and Tech Mentors, I offered curriculum guidance and one on one counseling support to students. My time at Hack Reactor was filled with lots of on the fly code-reviews, debugging, and both giving and recieving encouragement from a community focused on betterment and learning.",
+      {
+        "header": "Eat Club"
+      },
+      "Eat Club is a California based catering company delivering individual, prepared lunches to company offices. I worked as a Food Prep Team Lead and Delivery Representative. Some of my duties included:",
+      {
+        "content": "• Managing a teach cooking approximately 1200 meals for delivery daily",
+        "indent": true
+      },
+      {
+        "content": "• Formulating daily plan assigning meals to specific ovens and ensuring meals reached proper internal temperatures in the time allotted",
+        "indent": true
+      },
+      {
+        "content": "• Delivering meals to various locations across CA’s Bay Area",
+        "indent": true
       }
     ],
     "box": [
       {
         "link": "Technical Skills",
         "destination": "Technical Skills"
+      },
+      {
+        "header": "Professional Experience",
+        "list": [
+          {
+            "link": "JobApplyPro",
+            "destination": "Job Apply Pro"
+          },
+          "Galvanize Inc.",
+          "Eat Club"
+        ]
       },
       {
         "header": "Applications",
@@ -48,17 +100,6 @@
             "link": "Lyric Usage Visualizer",
             "destination": "Lyric Usage Visualizer"
           }
-        ]
-      },
-      {
-        "header": "Professional Experience",
-        "list": [
-          {
-            "link": "JobApplyPro",
-            "destination": "Job Apply Pro"
-          },
-          "Galvanize Inc.",
-          "Eat Club"
         ]
       },
       {
@@ -158,8 +199,14 @@
   "Pup Fetcher": {
     "header": "Pup Fetcher: React Hooks Lesson",
     "description": [
-      "\"Pup Fetcher\" is a demo-repository made for a live coding lecture during my time as a Software Engineering Immersive Resident (SEIR) working for Hack Reactor's Remote Campus. Speaking to students familiar with React's class components, I aimed to give an introduction and basic demonstration of React Hooks. Topics included the useState and useEffect hooks as well as a quick example of a reusable custom hook.",
-      "The slide deck and github repo can be used in conjunction with the video recording of my talk to walk through each concept covered."
+      {
+        "link": true,
+        "content": "\"Pup Fetcher\" is a {\"link\": \"demo repository\", \"url\": \"https://github.com/shawn-chambers/pup-fetcher\"} made for a live coding lecture during my time as a Software Engineering Immersive Resident (SEIR) working for Hack Reactor's Remote Campus. Speaking to students familiar with React's class components, I aimed to give an introduction and basic demonstration of React Hooks. Topics included the useState and useEffect hooks as well as a quick example of a reusable custom hook."
+      },
+      {
+        "link": true,
+        "content": "The {\"link\": \"slide deck\", \"url\": \"https://slides.com/shawnchambers/hooks\"} and {\"link\": \"repo\", \"url\": \"https://github.com/shawn-chambers/pup-fetcher\"} can be used in conjunction with the {\"link\": \"recording\", \"url\": \"https://youtu.be/kFxgjBQib9E\"} of my talk to walk through each concept covered. My appologies for the mustache, it was filmed during unprecidented times."
+      }
     ],
     "box": [
       {
@@ -184,7 +231,10 @@
   "Microservice Architecture": {
     "header": "ServicesServicesServices",
     "description": [
-      "ServicesServicesServices is a fake product page used as an example of mircoservice archetecture. Three 'microservices', a product description service, an image carousel and a reviews service can work independantly but are served together in one html file through a reverse-proxy server.",
+      {
+        "link": true,
+        "content": "{\"link\": \"ServicesServicesServices\", \"url\": \"https://github.com/shawn-chambers/servicesServicesServices\"} is a fake product page used as an example of mircoservice archetecture. Three microservices, a product description service, an image carousel and a reviews service can work independantly but are served together in one html file through a reverse-proxy server."
+      },
       "The initial GET request from the browser goes to the proxy, retrieving the three service bundles. These bundles each individually make requests to the proxy which are forwarded to their individual NodeJS servers. The node servers query their database for product data based on the product ID specified in the url. Each service independantly displays the data on the browser, decoupling each service's functionality.",
       "The product description service shows a persisted description, feature list, and color and size options specific to each product. The image carousel can be navigated with buttons, dragging the main image, or clicking a thumbnail. The reviews section has an infinite scroll, fetching 10 more reviews everytime the user reaches the bottom of the page.",
       "All data was generated programatically using custom generation scripts and fakerjs."

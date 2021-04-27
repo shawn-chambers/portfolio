@@ -13,40 +13,43 @@
 
   h1 {
     font-style: italic;
-    font-family: 'Shawnipedia';
+    font-family: "Shawnipedia";
     display: inline-block;
   }
 
   &__login {
     position: absolute;
     right: 1.5rem;
-    top: .3rem;
+    top: 0.3rem;
 
     &--logo-container {
       display: inline-block;
       position: relative;
-      top: .4rem;
+      top: 0.4rem;
       height: 2rem;
     }
 
     & > span {
       color: $color-link;
-      margin-left: .7rem;
+      margin-left: 0.7rem;
     }
 
     .status {
       color: grey;
       margin-left: 0;
     }
-
   }
 
   &__content {
-
     &--header-container {
       top: 2.7rem;
       width: calc(100% - 17rem);
       position: absolute;
+    }
+
+    &--section-header {
+      font-family: "Shawnipedia";
+      margin: 1rem 0; 
     }
 
     &-container {
@@ -56,15 +59,23 @@
       border: 1px solid #a7d7f9;
       border-right-width: 0;
       line-height: 1.6;
-      
+
       &--body {
         padding: 1.25em 1.5em 1.5em 1.5em;
         background-color: white;
         font-size: 1.4rem;
         overflow: hidden;
 
+        .indent {
+          margin-left: 2rem;
+        }
+
+        & > h3 {
+          margin-top: 1rem;
+        }
+
         & > p {
-          margin: 0.5rem 0 1.5rem 0;
+          margin: 0.5rem 0 0.5rem 0;
         }
       }
     }
@@ -72,6 +83,7 @@
 
   .content-subheader {
     font-size: 92%;
+    margin-bottom: 1rem;
   }
 
   .keyword {
