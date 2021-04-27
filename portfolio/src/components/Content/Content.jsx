@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ContentsBox from "../ContentsBox/ContentsBox";
 import Footer from "../Footer/Footer";
 import Picture from "../Pictures/Picture";
@@ -17,21 +18,25 @@ const Content = ({ content }) => {
     );
 
     return (
-      <p>
+      <span>
         {text.map((el, i) => {
           if (typeof el === "object") {
             return (
               <span key={`content-link-${i}`}>
-                <a href={el.url} target="_blank" rel="noreferrer noopener">
-                  {el.link}
-                </a>
+                {el.internal === true ? (
+                  <Link to={el.url}>{el.link}</Link>
+                ) : (
+                  <a href={el.url} target="_blank" rel="noreferrer noopener">
+                    {el.link}
+                  </a>
+                )}
               </span>
             );
           } else {
             return <span key={`content-${i}`}>{el}</span>;
           }
         })}
-      </p>
+      </span>
     );
   };
 
@@ -53,27 +58,28 @@ const Content = ({ content }) => {
                 if (paragraph.box) {
                   displayed = true;
                   return (
-                    <ContentsBox contents={content.box} />
-                  )
+                    <ContentsBox
+                      contents={content.box}
+                      key={`content-box-${i}`}
+                    />
+                  );
                 }
                 return (
                   <>
                     {paragraph.section ? (
-                      <>
-                        <div className="resume__content--section-header">
-                          <h2 key={`header-${i}`}>{paragraph.section}</h2>
+                        <div
+                          className="resume__content--section-header"
+                          key={`header-${i}`}
+                        >
+                          <h2>{paragraph.section}</h2>
                           <hr></hr>
                         </div>
-                      </>
                     ) : null}
                     {paragraph.header ? (
-                      <>
                         <h3 key={`header-${i}`} className={paragraph.header}>
                           {paragraph.header}
                         </h3>
-                      </>
                     ) : null}
-                    <>
                       <p
                         key={`paragraph-${i}`}
                         className={paragraph.indent ? "indent" : ""}
@@ -82,7 +88,6 @@ const Content = ({ content }) => {
                           ? handleLinks(paragraph.content)
                           : paragraph.content}
                       </p>
-                    </>
                   </>
                 );
               } else {
