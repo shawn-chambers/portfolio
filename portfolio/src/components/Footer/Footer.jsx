@@ -1,12 +1,10 @@
 import React from "react";
-import { format } from "date-fns";
 
 const Footer = (props) => {
   return (
     <footer className="footer">
       <div className="footer__content">
-        This page was last edited on{" "}
-        {format(new Date(), "d MMM y, 'at' K:mm '(PST).'")}
+        This page was last edited on 25 April 2021, at 3:20 (PST).
       </div>
       <div className="footer__links">
         <a
@@ -55,9 +53,3 @@ const Footer = (props) => {
 };
 
 export default Footer;
-
-/**
- *
- * link to resume: https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing
- *
- */

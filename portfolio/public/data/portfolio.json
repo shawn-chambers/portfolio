@@ -13,9 +13,12 @@
       "title": "LinkedIn",
       "url": "https://www.linkedin.com/in/shawn-chambers-67b03b1a3/"
     },
-    7,
+    {
+      "title": "GitHub",
+      "url": "https://github.com/shawn-chambers"
+    },
     "Technical Skills",
-    10
+    "Contact Info"
   ],
   "Resume": {
     "header": "Shawn Chambers",
@@ -25,13 +28,22 @@
         "content": "I am a {\"link\": \"Full Stack Engineer\", \"url\": \"https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing\"}  currently living in the Sacramento area of Northern California. I enjoy playing guitar (electric, acoustic, and bass) for my noisy, creative outlet and drawing as my ‘quiet, the kids are sleeping’ cathartic time."
       },
       {
+        "box": true
+      },
+      {
         "section": "Professional Experience"
       },
       {
         "header": "Job Apply Pro"
       },
-      "Job Apply Pro is a professional job search CRM. It gives users the ability to submit personalized job applications anywhere on the internet in a few clicks.",
-      "My experience working at Job Apply Pro includes but isn't limited to:",
+      {
+        "link": true,
+        "content": "{\"link\": \"Job Apply Pro\", \"url\": \"https://jobapplypro.com\"} is a professional job search CRM. It gives users the ability to submit personalized job applications anywhere on the internet in a few clicks."
+      },
+      {
+        "link": true,
+        "content": "My {\"link\": \"experience\", \"url\": \"/resume/Job%20Apply%20Pro\", \"internal\": true} working at Job Apply Pro includes but isn't limited to:"
+      },
       {
         "content": "• Building out of form validation and user authentication using role based access control",
         "indent": true
@@ -48,20 +60,16 @@
         "content": "• Building and managing marketing site using Next JS and React",
         "indent": true
       },
-      "Marketing site coming soon...",
-      {
-        "box": true
-      },
       {
         "header": "Galvanize Inc. / Hack Reactor"
       },
-      "Hack Reactor is an immersive coding bootcamp with campuses across the U.S. and online. Employed by Galvanize Inc., I worked as a Software Engineering Immersive Resident (SEIR) at Hack Reactor's remote, part-time campus. Working in conjunction with the Campus Lead and Tech Mentors, I offered curriculum guidance and one on one counseling support to students. My time at Hack Reactor was filled with lots of on the fly code-reviews, debugging, and both giving and recieving encouragement from a community focused on betterment and learning.",
+      "Hack Reactor is an immersive coding bootcamp with campuses across the U.S. and online. Employed by Galvanize Inc., I worked as a Software Engineering Immersive Resident (SEIR) at Hack Reactor's remote, part-time campus. Working in conjunction with the Campus Lead and Tech Mentors, I offered curriculum guidance and one on one counseling support to students. My time at Hack Reactor was filled with lots of on the fly code-reviews, debugging, and both giving and receiving encouragement from a community focused on betterment and learning.",
       {
         "header": "Eat Club"
       },
       "Eat Club is a California based catering company delivering individual, prepared lunches to company offices. I worked as a Food Prep Team Lead and Delivery Representative. Some of my duties included:",
       {
-        "content": "• Managing a teach cooking approximately 1200 meals for delivery daily",
+        "content": "• Managing a team to cook approximately 1200 meals for delivery daily",
         "indent": true
       },
       {
@@ -71,7 +79,35 @@
       {
         "content": "• Delivering meals to various locations across CA’s Bay Area",
         "indent": true
-      }
+      },
+      {
+        "section": "Applications"
+      },
+      {
+        "header": "ServicesServicesServices"
+      },
+      {
+        "link": true,
+        "content": "{\"link\": \"ServicesServicesServices\", \"url\": \"/resume/Microservice%20Architecture\", \"internal\": true} is a fake product page used as an example of mircoservice architecture. Three microservices, a product description service, an image carousel and a reviews service can work independently but are served together in one html file through a reverse-proxy server."
+      },
+      {
+        "header": "Lyric Usage Visualizer"
+      },
+      {
+        "link": true,
+        "content": "App used to display lyric data of Billboard's Top 100 songs of each of the last 50 years (1970 - 2020). This tinker-project is currently a work in progress."
+      },
+      {
+        "section": "Education"
+      },
+      {
+        "header": "Hack Reactor - 2020"
+      },
+      "Advanced Software Engineering Immersive Program",
+      {
+        "header": "Minnesota State University - 2011 - 2015"
+      },
+      "Studio Art - Drawing and Painting Emphasis"
     ],
     "box": [
       {
@@ -114,59 +150,80 @@
   "Technical Skills": {
     "header": "Technical Skills",
     "description": [
-      "All Hail techy techerson"
-    ],
-    "pictures": [
+      "I'm a full stack engineer who likes building things and talking about it. Learning new things is fun and teaching others about them is just as good.",
       {
-        "url": "https://weird-service-pictures.s3-us-west-1.amazonaws.com/1/fount1.jpg"
-      }
-    ],
-    "box": [
-      {
-        "link": "Technical Skills",
-        "destination": "Technical Skills"
+        "header": "Client-side",
+        "content": "JavaScript (TypeScript, ES5+), HTML5, CSS3, SASS/SCSS, React, Redux, jQuery, Styled-Components"
       },
       {
-        "header": "Applications",
-        "list": [
-          {
-            "link": "ServicesServicesServices",
-            "destination": "Microservice Architecture"
-          },
-          {
-            "link": "Lyric Usage Visualizer",
-            "destination": "Lyric Usage Visualizer"
-          }
-        ]
+        "header": "Server-side",
+        "content": "Node.js, Express, RESTful API Development"
       },
       {
-        "header": "Professional Experience",
-        "list": [
-          {
-            "link": "JobApplyPro",
-            "destination": "Job Apply Pro"
-          },
-          "Galvanize Inc.",
-          "Eat Club"
-        ]
+        "header": "Databases and ORMs",
+        "content": "MySQL, PostgreSQL, SQLite, Cassandra, MongoDB, MongooseJS, Sequelize, Knex.js"
       },
       {
-        "header": "Education",
-        "list": [
-          "Hack Reactor",
-          "Minnesota State University"
-        ]
+        "header": "Testing",
+        "content": "Mocha, Chai, Jest, Enzyme, React-testing-library, Jasmine, Loader io, New Relic"
+      },
+      {
+        "header": "Deployment",
+        "content": "AWS (EC2/ECS S3), Docker, Heroku"
+      },
+      {
+        "header": "Development Tools",
+        "content": "Git, Webpack, Babel, Next JS"
       }
     ]
   },
   "Job Apply Pro": {
     "header": "Job Apply Pro",
     "description": [
-      "A job about applying for jobs to help me get a good job once I apply for it with the tool we made to apply for jobs."
+      {
+        "link": true,
+        "content": "{\"link\": \"Job Apply Pro\", \"url\": \"https://jobapplypro.com\"} is a professional job search CRM giving users the ability to submit personalized job applications anywhere on the internet in a few clicks."
+      },
+      {
+        "header": "Software Engineer"
+      },
+      "Engineer working with React, Redux, Next JS. Some contributions include: ",
+      {
+        "content": "• Building out of form validation and user authentication using role based access control",
+        "indent": true
+      },
+      {
+        "content": "• Designing and managing UI / base components using Javascript, React, and TypeScript",
+        "indent": true
+      },
+      {
+        "content": "• Implementing error handling and event notification system",
+        "indent": true
+      },
+      {
+        "content": "• Building and managing marketing site using Next JS and React",
+        "indent": true
+      },
+      {
+        "content": "• Constructing front end, unit tests using Jest and React Testing Library",
+        "indent": true
+      }
+    ],
+    "box": [
+      {
+        "header": "Technologies",
+        "list": [
+          "React",
+          "Redux",
+          "Chart JS",
+          "Jest / React Testing Library",
+          "Next JS"
+        ]
+      }
     ]
   },
   "Lyric Usage Visualizer": {
-    "header": "Say What? (ehhh...)",
+    "header": "Say What? (working title...)",
     "description": [
       "App used to display lyric data of Billboard's Top 100 songs of each of the last 50 years (1970 - 2020).",
       "Lyric data was gathered by programatically scraping GENUIS's lyric database and then inserted into an optimized Postgres DB."
@@ -201,11 +258,11 @@
     "description": [
       {
         "link": true,
-        "content": "\"Pup Fetcher\" is a {\"link\": \"demo repository\", \"url\": \"https://github.com/shawn-chambers/pup-fetcher\"} made for a live coding lecture during my time as a Software Engineering Immersive Resident (SEIR) working for Hack Reactor's Remote Campus. Speaking to students familiar with React's class components, I aimed to give an introduction and basic demonstration of React Hooks. Topics included the useState and useEffect hooks as well as a quick example of a reusable custom hook."
+        "content": "\"Pup Fetcher\" is a {\"link\": \"demo repository\", \"url\": \"https://github.com/shawn-chambers/pup-fetcher\"} made for a live coding lecture during my time as a Software Engineering Immersive Resident (SEIR) working for Hack Reactor's Remote Campus. Speaking to students familiar with React's class components, I aimed to give an introduction and basic demonstration of React Hooks. Topics included the useState and useEffect hooks as well as a quick example of a reusable custom hook. The app itself uses Dog API to display a random dog picture based on a breed inputted by the user."
       },
       {
         "link": true,
-        "content": "The {\"link\": \"slide deck\", \"url\": \"https://slides.com/shawnchambers/hooks\"} and {\"link\": \"repo\", \"url\": \"https://github.com/shawn-chambers/pup-fetcher\"} can be used in conjunction with the {\"link\": \"recording\", \"url\": \"https://youtu.be/kFxgjBQib9E\"} of my talk to walk through each concept covered. My appologies for the mustache, it was filmed during unprecidented times."
+        "content": "The {\"link\": \"slide deck\", \"url\": \"https://slides.com/shawnchambers/hooks\"} and {\"link\": \"repo\", \"url\": \"https://github.com/shawn-chambers/pup-fetcher\"} can be used in conjunction with the {\"link\": \"recording\", \"url\": \"https://youtu.be/kFxgjBQib9E\"} of my talk to walk through each concept covered. My apologies for the mustache, it was filmed during unprecedented times."
       }
     ],
     "box": [
@@ -226,6 +283,12 @@
           }
         ]
       }
+    ],
+    "pictures": [
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/pup-fetcher/pup-fetcher.png",
+        "caption": "Step 3 of guided lesson"
+      }
     ]
   },
   "Microservice Architecture": {
@@ -233,16 +296,19 @@
     "description": [
       {
         "link": true,
-        "content": "{\"link\": \"ServicesServicesServices\", \"url\": \"https://github.com/shawn-chambers/servicesServicesServices\"} is a fake product page used as an example of mircoservice archetecture. Three microservices, a product description service, an image carousel and a reviews service can work independantly but are served together in one html file through a reverse-proxy server."
+        "content": "{\"link\": \"ServicesServicesServices\", \"url\": \"https://github.com/shawn-chambers/servicesServicesServices\"} is a fake product page used as an example of mircoservice architecture. Three microservices, a product description service, an image carousel and a reviews service can work independently but are served together in one html file through a reverse-proxy server."
       },
-      "The initial GET request from the browser goes to the proxy, retrieving the three service bundles. These bundles each individually make requests to the proxy which are forwarded to their individual NodeJS servers. The node servers query their database for product data based on the product ID specified in the url. Each service independantly displays the data on the browser, decoupling each service's functionality.",
-      "The product description service shows a persisted description, feature list, and color and size options specific to each product. The image carousel can be navigated with buttons, dragging the main image, or clicking a thumbnail. The reviews section has an infinite scroll, fetching 10 more reviews everytime the user reaches the bottom of the page.",
-      "All data was generated programatically using custom generation scripts and fakerjs."
+      "The initial GET request from the browser goes to the proxy, retrieving the three service bundles. These bundles each individually make requests to the proxy which are forwarded to their individual NodeJS servers. The node servers query their database for product data based on the product ID specified in the url. Each service independently displays the data on the browser, decoupling each service's functionality.",
+      "The product description service shows a persisted description, feature list, and color and size options specific to each product. The image carousel can be navigated with buttons, dragging the main image, or clicking a thumbnail. The reviews section has an infinite scroll, fetching 10 more reviews every time the user reaches the bottom of the page.",
+      "All data was generated programmatically using custom generation scripts and fakerjs.",
+      {
+        "box": true
+      }
     ],
     "pictures": [
       {
         "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/microservice.png",
-        "caption": "Store front with three independant microservices"
+        "caption": "Store front with three independent microservices"
       },
       {
         "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/architecture.png",
@@ -294,6 +360,18 @@
           "Mongoose",
           "Jest / Supertest"
         ]
+      }
+    ]
+  },
+  "Contact Info": {
+    "header": "Contact Information",
+    "description": [
+      {
+        "header": "Email:"
+      },
+      {
+        "link": true,
+        "content": "{\"link\": \"chambers.shawn.89@gmail.com\", \"url\": \"mailto: chambers.shawn.89@gmail.com\"}"
       }
     ]
   }

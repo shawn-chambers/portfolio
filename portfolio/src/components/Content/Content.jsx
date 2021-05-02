@@ -23,6 +23,7 @@ const Content = ({ content }) => {
           if (typeof el === "object") {
             return (
               <span key={`content-link-${i}`}>
+                {" "}
                 {el.internal === true ? (
                   <Link to={el.url}>{el.link}</Link>
                 ) : (
@@ -30,6 +31,7 @@ const Content = ({ content }) => {
                     {el.link}
                   </a>
                 )}
+                {" "}
               </span>
             );
           } else {

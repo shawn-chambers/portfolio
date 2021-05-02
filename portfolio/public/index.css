@@ -125,8 +125,7 @@ body {
   line-height: 1.6;
   width: auto;
   height: auto;
-  margin: 1rem 2.5rem 0 0;
-  float: left; }
+  margin: 1rem 2.5rem 0 0; }
   .contents__header {
     display: flex;
     justify-content: center;
@@ -334,7 +333,8 @@ body {
   .resume h1 {
     font-style: italic;
     font-family: "Shawnipedia";
-    display: inline-block; }
+    display: inline-block;
+    font-size: 3.2rem; }
   .resume__login {
     position: absolute;
     right: 1.5rem;
@@ -356,7 +356,8 @@ body {
     position: absolute; }
   .resume__content--section-header {
     font-family: "Shawnipedia";
-    margin: 1rem 0; }
+    margin: 1rem 0;
+    font-size: 1.6rem; }
   .resume__content-container {
     position: relative;
     top: 8rem;
@@ -365,7 +366,7 @@ body {
     border-right-width: 0;
     line-height: 1.6; }
     .resume__content-container--body {
-      padding: 1.25em 1.5em 1.5em 1.5em;
+      padding: 1em 1.5em 1.5em 1.5em;
       background-color: white;
       font-size: 1.4rem;
       overflow: hidden; }
