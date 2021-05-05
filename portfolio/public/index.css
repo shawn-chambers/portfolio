@@ -205,7 +205,7 @@ body {
   max-width: auto; }
   @media (max-width: 500px) {
     .logo {
-      max-height: 7rem; } }
+      max-height: 9rem; } }
 
 .head-logo {
   height: 100%; }
@@ -310,8 +310,8 @@ body {
       .home__logo-container .logo {
         margin-top: 0;
         position: absolute;
-        left: 60px;
-        top: 13px; } }
+        left: 50px;
+        top: 0px; } }
   .home__center {
     position: relative;
     left: 50%;
