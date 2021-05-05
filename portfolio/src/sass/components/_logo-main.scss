@@ -1,6 +1,9 @@
 .logo {
   max-height: 22rem;
   max-width: auto;
+  @media (max-width: 500px) {
+    max-height: 7rem;
+  }
 }
 
 .head-logo {

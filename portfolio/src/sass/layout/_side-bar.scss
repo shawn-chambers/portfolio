@@ -1,4 +1,9 @@
 .side-bar {
+
+  @media (max-width: 500px) {
+    display: none;
+  }
+
   float: left;
   margin-top: 2rem;
   margin-left: 1.5rem;

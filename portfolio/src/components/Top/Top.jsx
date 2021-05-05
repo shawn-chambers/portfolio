@@ -10,7 +10,9 @@ const Top = () => {
 
   useEffect(() => {
     axios
-      .get("https://shawnipedia.s3-us-west-1.amazonaws.com/shawnipedia-min.json")
+      .get(
+        "https://shawnipedia.s3-us-west-1.amazonaws.com/shawnipedia-min.json"
+      )
       .then(({ data }) => {
         setResume(data);
       })
@@ -22,19 +24,25 @@ const Top = () => {
   return (
     <>
       <div className="home">
-        <div className="home__header">
-          <span>S</span>
-          <span>HAWN CHAMBER</span>
-          <span>S</span>
+        <div className="home__top">
+          <div className="home__header">
+            <span>S</span>
+            <span>HAWN CHAMBER</span>
+            <span>S</span>
+          </div>
+          <div className="home__header--sub">
+            Web Developer - Sacramento, CA
+          </div>
         </div>
-        <div className="home__header--sub">Web Developer - Sacramento, CA</div>
         <div className="home__center">
           <div className="home__logo-container">
             <Link to="/resume/Resume">
               <Logo />
             </Link>
           </div>
-          {resume.links && <Links links={resume.links} />}
+          <div className="home__center--links">
+            {resume.links && <Links links={resume.links} />}
+          </div>
         </div>
       </div>
       <Switch>

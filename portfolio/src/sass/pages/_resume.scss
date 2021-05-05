@@ -7,6 +7,11 @@
   left: $resume-offset;
   height: 100vh;
 
+  @media (max-width: 500px) {
+    width: 100%;
+    left: 0;
+  }
+
   li {
     list-style: none;
   }
@@ -16,6 +21,9 @@
     font-family: "Shawnipedia";
     display: inline-block;
     font-size: 3.2rem;
+    @media (max-width: 500px) {
+      font-size: 2.8rem;
+    }
   }
 
   &__login {
@@ -46,6 +54,9 @@
       top: 2.7rem;
       width: calc(100% - 17rem);
       position: absolute;
+      @media (max-width: 500px) {
+        display: none;
+      }
     }
 
     &--section-header {
@@ -61,6 +72,9 @@
       border: 1px solid #a7d7f9;
       border-right-width: 0;
       line-height: 1.6;
+      @media (max-width: 500px) {
+        top: 6rem;
+      }
 
       &--body {
         padding: 1em 1.5em 1.5em 1.5em;
@@ -70,6 +84,14 @@
 
         .indent {
           margin-left: 2rem;
+        }
+
+        a {
+          &:link,
+          &:visited,
+          &:active {
+            color: $color-link
+          }
         }
 
         & > h3 {

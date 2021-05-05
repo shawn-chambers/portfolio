@@ -1,5 +1,10 @@
 .search {
 
+  @media (max-width: 500px) {
+    display: none;
+  }
+
+
   &__container {
     padding: .4em .8rem 0rem .8rem;
     position: relative;
