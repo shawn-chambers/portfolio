@@ -6,7 +6,7 @@ const displayTitle = (link) => {
     case "Resume":
       return "Resumé";
     case "Resume Doc":
-      return "Resumé Word Document";
+      return "Resumé Document";
     default:
       return `${link}`
   }
