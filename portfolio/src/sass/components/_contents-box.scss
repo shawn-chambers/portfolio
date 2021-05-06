@@ -8,6 +8,18 @@
   height: auto;
   margin: 1rem 2.5rem 0 0;
 
+  button {
+     border: none;
+     color: $color-link;
+     background-color: #f8f9fa;
+     font-family: sans-serif;
+     font-size: 94%;
+    }
+
+  a {
+    font-size: 94%;
+  }
+
   &__header {
     display: flex;
     justify-content: center;
@@ -34,7 +46,7 @@
 
   ul {
     padding-left: 0px;
-    font-size: 94%;
+    // font-size: 94%;
   }
 
   a {

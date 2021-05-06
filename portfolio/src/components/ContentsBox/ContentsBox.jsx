@@ -27,7 +27,7 @@ const ContentsBox = ({ contents }) => {
                   <li key={`${skill}`}>
                     <div>
                       <span className="contents__number">{i + 1}</span>
-                      <a href="#resume">{skill}</a>
+                      <div>{skill}</div>
                     </div>
                   </li>
                 );
@@ -38,13 +38,13 @@ const ContentsBox = ({ contents }) => {
                       {skill.header ? (
                         <>
                           <span className="contents__number">{i + 1}</span>
-                          <a href={`#${skill.header}`}>{skill.header}</a>
+                          <button>{skill.header}</button>
                         </>
                       ) : (
                         <div key={`${skill}`}>
                           <span className="contents__number">{i + 1}</span>
                           <Link to={`/resume/${skill.destination}`}>
-                            <div href="#resume">{skill.link}</div>
+                            <div>{skill.link}</div>
                           </Link>
                         </div>
                       )}
@@ -57,12 +57,12 @@ const ContentsBox = ({ contents }) => {
                                     className="sub-entry"
                                     key={`${item}-${j}`}
                                   >
-                                    <a href="#resume">
+                                    <button>
                                       <span className="contents__number">{`${
                                         i + 1
                                       }.${j + 1}`}</span>
                                       <span>{item}</span>
-                                    </a>
+                                    </button>
                                   </li>
                                 );
                               } else {

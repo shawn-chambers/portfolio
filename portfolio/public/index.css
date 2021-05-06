@@ -132,6 +132,14 @@ body {
   width: auto;
   height: auto;
   margin: 1rem 2.5rem 0 0; }
+  .contents button {
+    border: none;
+    color: #36c;
+    background-color: #f8f9fa;
+    font-family: sans-serif;
+    font-size: 94%; }
+  .contents a {
+    font-size: 94%; }
   .contents__header {
     display: flex;
     justify-content: center;
@@ -149,8 +157,7 @@ body {
     padding-left: 0;
     padding-right: 0.5em; }
   .contents ul {
-    padding-left: 0px;
-    font-size: 94%; }
+    padding-left: 0px; }
   .contents a {
     display: inline-block;
     text-decoration: none;
