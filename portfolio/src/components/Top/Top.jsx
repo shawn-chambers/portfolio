@@ -10,9 +10,10 @@ const Top = () => {
 
   useEffect(() => {
     axios
-      .get(
-        "https://shawnipedia.s3-us-west-1.amazonaws.com/shawnipedia-min.json"
-      )
+      // .get(
+      //   "https://shawnipedia.s3-us-west-1.amazonaws.com/shawnipedia-min.json"
+      // )
+      .get('./data/portfolio.json')
       .then(({ data }) => {
         setResume(data);
       })

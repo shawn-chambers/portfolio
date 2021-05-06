@@ -16,18 +16,20 @@ const Links = ({ links }) => {
   return (
     <>
       {links.map((d, i) => {
-        if (typeof d === "object") {
+        if (d.url) {
           return (
             <div key={i + 1} className={`home__link home__link--${i + 1}`}>
               <a href={d.url} target="_blank" rel="noreferrer noopener">
                 {displayTitle(d.title)}
               </a>
+              <div className="home__link--subheader">{d.subHeader}</div>
             </div>
           );
         } else {
           return (
             <div key={i + 1} className={`home__link home__link--${i + 1}`}>
-              <Link to={`/resume/${d}`}>{displayTitle(d)}</Link>
+              <Link to={`/resume/${d.title}`}>{displayTitle(d.title)}</Link>
+              <div className="home__link--subheader">{d.subHeader}</div>
             </div>
           );
         }

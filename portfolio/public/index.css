@@ -346,6 +346,14 @@ body {
       text-decoration: none;
       font-family: sans-serif;
       font-weight: bold; }
+    .home__link > a:hover {
+      text-decoration: underline; }
+    .home__link--subheader {
+      color: #54595d;
+      font-family: sans-serif;
+      font-size: 1.3rem;
+      max-width: 19rem;
+      margin: .5rem auto; }
     .home__link--1 {
       top: 0;
       right: 60%; }

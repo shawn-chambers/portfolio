@@ -91,6 +91,19 @@
         font-family: sans-serif;
         font-weight: bold;
       }
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+    }
+
+    &--subheader {
+      color: #54595d;
+      font-family: sans-serif;
+      font-size: 1.3rem;
+      max-width: 19rem;
+      margin: .5rem auto;
     }
 
     &--1 {
