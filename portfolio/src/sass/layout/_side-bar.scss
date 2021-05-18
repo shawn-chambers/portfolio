@@ -4,7 +4,6 @@
     display: none;
   }
 
-  float: left;
   margin-top: 2rem;
   margin-left: 1.5rem;
   width: 15em;
@@ -13,6 +12,10 @@
   height: 100%;
   font-family: "Shawnipedia";
   cursor: help;
+
+  a {
+    text-decoration: none;
+  }
 
   &__menu {
     margin-bottom: 2rem;
@@ -27,17 +30,19 @@
     &--header-mini {
       font-size: 1.2rem;
       transform: scaleY(1.2);
-
+      color: black;
+      
       & span:nth-child(1) {
         font-size: 2rem;
       }
-
+      
       & span:nth-child(3) {
         font-size: 2rem;
       }
     }
-
+    
     &--sub-header-mini {
+      color: black;
       font-size: 1.2rem;
       letter-spacing: 0.6px;
     }

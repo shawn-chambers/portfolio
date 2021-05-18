@@ -5,7 +5,7 @@
       "subHeader": "Resumé Page"
     },
     {
-      "title": "Job Apply Pro",
+      "title": "JobApplyPro",
       "subHeader": "Current Company"
     },
     {
@@ -18,8 +18,8 @@
       "subHeader": "React Hooks Lecture"
     },
     {
-      "title": "Lyric Usage Visualizer",
-      "subHeader": "Data Visualisation App"
+      "title": "Say What?",
+      "subHeader": "Data Visualization App"
     },
     {
       "title": "Microservice Architecture",
@@ -58,15 +58,15 @@
         "section": "Professional Experience"
       },
       {
-        "header": "Job Apply Pro"
+        "header": "JobApplyPro"
       },
       {
         "link": true,
-        "content": "{\"link\": \"Job Apply Pro\", \"url\": \"https://jobapplypro.com\"} is a professional job search CRM. It gives users the ability to submit personalized job applications anywhere on the internet in a few clicks."
+        "content": "{\"link\": \"JobApplyPro\", \"url\": \"https://jobapplypro.com\"} is a professional job search CRM. It gives users the ability to submit personalized job applications anywhere on the internet in a few clicks."
       },
       {
         "link": true,
-        "content": "My {\"link\": \"experience\", \"url\": \"/resume/Job%20Apply%20Pro\", \"internal\": true} working at Job Apply Pro includes but isn't limited to:"
+        "content": "My {\"link\": \"experience\", \"url\": \"/resume/Job%20Apply%20Pro\", \"internal\": true} working at JobApplyPro includes but isn't limited to:"
       },
       {
         "content": "• Building out of form validation and user authentication using role based access control",
@@ -115,11 +115,11 @@
         "content": "{\"link\": \"ServicesServicesServices\", \"url\": \"/resume/Microservice%20Architecture\", \"internal\": true} is a fake product page used as an example of mircoservice architecture. Three microservices, a product description service, an image carousel and a reviews service can work independently but are served together in one html file through a reverse-proxy server."
       },
       {
-        "header": "Lyric Usage Visualizer"
+        "header": "Say What?"
       },
       {
         "link": true,
-        "content": "App used to display lyric data of Billboard's Top 100 songs of each of the last 50 years (1970 - 2020). This tinker-project is currently a work in progress."
+        "content": "{\"link\": \"Say What?\", \"url\": \"https://say-what-data-visualizer.herokuapp.com/\"} is an app used to display lyric data of Billboard's Top 100 songs of each of the last 50 years (1970 - 2020). This tinker-project is currently a work in progress."
       },
       {
         "section": "Education"
@@ -143,7 +143,7 @@
         "list": [
           {
             "link": "JobApplyPro",
-            "destination": "Job Apply Pro"
+            "destination": "JobApplyPro"
           },
           "Galvanize Inc.",
           "Eat Club"
@@ -157,8 +157,8 @@
             "destination": "Microservice Architecture"
           },
           {
-            "link": "Lyric Usage Visualizer",
-            "destination": "Lyric Usage Visualizer"
+            "link": "Say What? Data Visualizer",
+            "destination": "Say What?"
           }
         ]
       },
@@ -201,12 +201,12 @@
       }
     ]
   },
-  "Job Apply Pro": {
-    "header": "Job Apply Pro",
+  "JobApplyPro": {
+    "header": "JobApplyPro",
     "description": [
       {
         "link": true,
-        "content": "{\"link\": \"Job Apply Pro\", \"url\": \"https://jobapplypro.com\"} is a professional job search CRM giving users the ability to submit personalized job applications anywhere on the internet in a few clicks."
+        "content": "{\"link\": \"JobApplyPro\", \"url\": \"https://jobapplypro.com\"} is a professional job search CRM giving users the ability to submit personalized job applications anywhere on the internet in a few clicks."
       },
       {
         "header": "Software Engineer"
@@ -246,16 +246,14 @@
       }
     ]
   },
-  "Lyric Usage Visualizer": {
-    "header": "Say What? (working title...)",
+  "Say What": {
+    "header": "Say What?",
     "description": [
-      "App used to display lyric data of Billboard's Top 100 songs of each of the last 50 years (1970 - 2020).",
-      "Lyric data was gathered by programatically scraping GENUIS's lyric database and then inserted into an optimized Postgres DB."
-    ],
-    "pictures": [
       {
-        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/placeholder/coming-soon.png"
-      }
+        "link": true,
+        "content": "{\"link\": \"Say What?\", \"url\": \"https://say-what-data-visualizer.herokuapp.com/\"} is fullstack web applicaion used to display lyric data of Billboard's Top 100 songs of each of the last 50 years (1970 - 2020). Using modern design, data is presented as interactive and easily digestible. Lyric data was gathered by programatically scraping GENUIS's lyric database and inserted into an optimized Postgres DB."
+      },
+      "This app is a work in progress; I hope to add more content as time permits."
     ],
     "box": [
       {
@@ -274,6 +272,19 @@
           "Postgress",
           "Sequelize"
         ]
+      }
+    ],
+    "pictures": [
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/saywhat/billboard.png",
+        "caption": "Content served via Node.js"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/saywhat/chart.png",
+        "caption": "Visualizations built with D3.js"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/saywhat/swdemo.gif"
       }
     ]
   },

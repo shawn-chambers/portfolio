@@ -9,15 +9,15 @@ const SideBar = () => {
         <div className="side-bar__menu">
           <Link to="/">
             <img src={smallLogo} className="side-bar__menu--logo" alt="Icon" />
+            <div className="side-bar__menu--header-mini">
+              <span>S</span>
+              <span>HAWN CHAMBER</span>
+              <span>S</span>
+            </div>
+            <div className="side-bar__menu--sub-header-mini">
+              Web Developer - CA
+            </div>
           </Link>
-          <div className="side-bar__menu--header-mini">
-            <span>S</span>
-            <span>HAWN CHAMBER</span>
-            <span>S</span>
-          </div>
-          <div className="side-bar__menu--sub-header-mini">
-            Web Developer - CA
-          </div>
         </div>
         <div className="side-bar__content">
           <nav>
