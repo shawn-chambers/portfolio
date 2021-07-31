@@ -66,7 +66,7 @@
       },
       {
         "link": true,
-        "content": "My {\"link\": \"experience\", \"url\": \"/resume/Job%20Apply%20Pro\", \"internal\": true} working at JobApplyPro includes but isn't limited to:"
+        "content": "My {\"link\": \"experience\", \"url\": \"/resume/JobApplyPro\", \"internal\": true} working at JobApplyPro includes but isn't limited to:"
       },
       {
         "content": "• Building out of form validation and user authentication using role based access control",
@@ -81,7 +81,7 @@
         "indent": true
       },
       {
-        "content": "• Building and managing marketing site using Next JS and React",
+        "content": "• Building and managing marketing site using Next.js and React",
         "indent": true
       },
       {
@@ -185,7 +185,7 @@
       },
       {
         "header": "Databases and ORMs",
-        "content": "MySQL, PostgreSQL, SQLite, Cassandra, MongoDB, MongooseJS, Sequelize, Knex.js"
+        "content": "MySQL, PostgreSQL, SQLite, Cassandra, MongoDB, Mongoose.js, Sequelize, Knex.js"
       },
       {
         "header": "Testing",
@@ -197,7 +197,7 @@
       },
       {
         "header": "Development Tools",
-        "content": "Git, Webpack, Babel, Next JS"
+        "content": "Git, Webpack, Babel, Next.js"
       }
     ]
   },
@@ -211,7 +211,7 @@
       {
         "header": "Software Engineer"
       },
-      "Engineer working with React, Redux, Next JS. Some contributions include: ",
+      "Engineer working with React, Redux, Next.js. Some contributions include: ",
       {
         "content": "• Building out of form validation and user authentication using role based access control",
         "indent": true
@@ -225,7 +225,7 @@
         "indent": true
       },
       {
-        "content": "• Building and managing marketing site using Next JS and React",
+        "content": "• Building and managing marketing site using Next.js and React",
         "indent": true
       },
       {
@@ -239,9 +239,9 @@
         "list": [
           "React",
           "Redux",
-          "Chart JS",
+          "Chart.js",
           "Jest / React Testing Library",
-          "Next JS"
+          "Next.js"
         ]
       }
     ]
@@ -333,7 +333,7 @@
         "link": true,
         "content": "{\"link\": \"ServicesServicesServices\", \"url\": \"https://github.com/shawn-chambers/servicesServicesServices\"} is a fake product page used as an example of mircoservice architecture. Three microservices, a product description service, an image carousel and a reviews service can work independently but are served together in one html file through a reverse-proxy server."
       },
-      "The initial GET request from the browser goes to the proxy, retrieving the three service bundles. These bundles each individually make requests to the proxy which are forwarded to their individual NodeJS servers. The node servers query their database for product data based on the product ID specified in the url. Each service independently displays the data on the browser, decoupling each service's functionality.",
+      "The initial GET request from the browser goes to the proxy, retrieving the three service bundles. These bundles each individually make requests to the proxy which are forwarded to their individual Node.js servers. The node servers query their database for product data based on the product ID specified in the url. Each service independently displays the data on the browser, decoupling each service's functionality.",
       "The product description service shows a persisted description, feature list, and color and size options specific to each product. The image carousel can be navigated with buttons, dragging the main image, or clicking a thumbnail. The reviews section has an infinite scroll, fetching 10 more reviews every time the user reaches the bottom of the page.",
       "All data was generated programmatically using custom generation scripts and fakerjs.",
       {
