@@ -10,7 +10,7 @@
     },
     {
       "title": "Resume Doc",
-      "url": "https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing",
+      "url": "https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing",
       "subHeader": "Link to Resumé Document"
     },
     {
@@ -49,7 +49,7 @@
     "description": [
       {
         "link": true,
-        "content": "I am a {\"link\": \"Full Stack Engineer\", \"url\": \"https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing\"}  currently living in the Sacramento area of Northern California. I enjoy playing guitar (electric, acoustic, and bass) for my noisy, creative outlet and drawing as my ‘quiet, the kids are sleeping’ cathartic time."
+        "content": "I am a {\"link\": \"Full Stack Engineer\", \"url\": \"https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing\"}  currently living in the Sacramento area of Northern California. I enjoy playing guitar (electric, acoustic, and bass) for my noisy, creative outlet and drawing as my ‘quiet, the kids are sleeping’ cathartic time."
       },
       {
         "box": true
@@ -57,6 +57,11 @@
       {
         "section": "Professional Experience"
       },
+      {
+        "header": "Galvanize Inc. / Hack Reactor"
+      },
+      "Hack Reactor is an immersive coding bootcamp with campuses across the U.S. and online. Employed by Galvanize Inc., I currently work as an Enrollment Engineer. My main tasks include the proctoring and grading of the Technical Admission Assessment, covering JavaScript and engineering fundamentals, as well as the mentorship of over 100 beginner JavaScript students, including one-on-one lessons and on-call support.",
+      "Previously, I worked as a Software Engineering Immersive Resident (SEIR) at Hack Reactor's remote, part-time campus. Working in conjunction with the Campus Lead and Tech Mentors, I offered curriculum guidance and one on one counseling support to students. My time at Hack Reactor was filled with lots of on the fly code-reviews, debugging, and both giving and receiving encouragement from a community focused on betterment and learning.",
       {
         "header": "JobApplyPro"
       },
@@ -85,23 +90,19 @@
         "indent": true
       },
       {
-        "header": "Galvanize Inc. / Hack Reactor"
+        "header": "UniWhales.io"
       },
-      "Hack Reactor is an immersive coding bootcamp with campuses across the U.S. and online. Employed by Galvanize Inc., I worked as a Software Engineering Immersive Resident (SEIR) at Hack Reactor's remote, part-time campus. Working in conjunction with the Campus Lead and Tech Mentors, I offered curriculum guidance and one on one counseling support to students. My time at Hack Reactor was filled with lots of on the fly code-reviews, debugging, and both giving and receiving encouragement from a community focused on betterment and learning.",
+      "Contract Web Developer",
       {
-        "header": "Eat Club"
-      },
-      "Eat Club is a California based catering company delivering individual, prepared lunches to company offices. I worked as a Food Prep Team Lead and Delivery Representative. Some of my duties included:",
-      {
-        "content": "• Managing a team to cook approximately 1200 meals for delivery daily",
+        "content": "• Architected landing page for product marketing campaign using HTML, CSS/SCSS and JavaScript",
         "indent": true
       },
       {
-        "content": "• Formulating daily plan assigning meals to specific ovens and ensuring meals reached proper internal temperatures in the time allotted",
+        "content": "• Designed logo using Adobe CS and Figma based on stakeholder’s vision",
         "indent": true
       },
       {
-        "content": "• Delivering meals to various locations across CA’s Bay Area",
+        "content": "• Integrated email subscription service to custom UI components",
         "indent": true
       },
       {
@@ -146,7 +147,7 @@
             "destination": "JobApplyPro"
           },
           "Galvanize Inc.",
-          "Eat Club"
+          "UniWhales.io"
         ]
       },
       {
