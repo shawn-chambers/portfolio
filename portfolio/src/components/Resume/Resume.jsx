@@ -8,9 +8,16 @@ const Resume = (props) => {
   const [page, setPage] = useState("");
 
   useEffect(() => {
-    axios.get("https://shawnipedia.s3-us-west-1.amazonaws.com/shawnipedia-min.json").then(({ data }) => {
-      setPage(data[props.match.params.param]);
-    });
+    axios
+      .get(
+        "/data/portfolio2.json"
+      )
+      // .get(
+      //   "https://shawnipedia.s3-us-west-1.amazonaws.com/shawnipedia-min.json"
+      // )
+      .then(({ data }) => {
+        setPage(data[props.match.params.param]);
+      });
   }, [props]);
 
   return (

@@ -1,0 +1,414 @@
+{
+  "links": [
+    {
+      "title": "Resume",
+      "subHeader": "An Overview of My Experience and Skills"
+    },
+    {
+      "title": "JobApplyPro",
+      "subHeader": "Current Company"
+    },
+    {
+      "title": "Resume Doc",
+      "url": "https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing",
+      "subHeader": "Link to Resumé Document"
+    },
+    {
+      "title": "Pup Fetcher",
+      "subHeader": "React Hooks Lecture"
+    },
+    {
+      "title": "Say What?",
+      "subHeader": "Data Visualization App"
+    },
+    {
+      "title": "Microservice Architecture",
+      "subHeader": "Microservice Architecture Example App"
+    },
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shawn-chambers-67b03b1a3/",
+      "subHeader": "My LinkedIn Profile"
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/shawn-chambers",
+      "subHeader": "My GitHub Profile"
+    },
+    {
+      "title": "Technical Skills",
+      "subHeader": "A List of My Proficiencies"
+    },
+    {
+      "title": "Contact Info",
+      "subHeader": "Let's Get in Touch"
+    }
+  ],
+  "Resume": {
+    "header": "Shawn Chambers",
+    "description": [
+      {
+        "link": true,
+        "content": "I am a {\"link\": \"Full Stack Engineer\", \"url\": \"https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing\"}  currently living in the Sacramento area of Northern California. I enjoy playing guitar (electric, acoustic, and bass) for my noisy, creative outlet and drawing as my ‘quiet, the kids are sleeping’ cathartic time."
+      },
+      {
+        "box": true
+      },
+      {
+        "section": "Professional Experience"
+      },
+      {
+        "header": "Galvanize Inc. / Hack Reactor"
+      },
+      "Hack Reactor is an immersive coding bootcamp with campuses across the U.S. and online. Employed by Galvanize Inc., I currently work as an Enrollment Engineer. My main tasks include the proctoring and grading of the Technical Admission Assessment, covering JavaScript and engineering fundamentals, as well as the mentorship of over 100 beginner JavaScript students, including one-on-one lessons and on-call support.",
+      "Previously, I worked as a Software Engineering Immersive Resident (SEIR) at Hack Reactor's remote, part-time campus. Working in conjunction with the Campus Lead and Tech Mentors, I offered curriculum guidance and one on one counseling support to students. My time at Hack Reactor was filled with lots of on the fly code-reviews, debugging, and both giving and receiving encouragement from a community focused on betterment and learning.",
+      {
+        "header": "JobApplyPro"
+      },
+      {
+        "link": true,
+        "content": "{\"link\": \"JobApplyPro\", \"url\": \"https://jobapplypro.com\"} is a professional job search CRM. It gives users the ability to submit personalized job applications anywhere on the internet in a few clicks."
+      },
+      {
+        "link": true,
+        "content": "My {\"link\": \"experience\", \"url\": \"/resume/JobApplyPro\", \"internal\": true} working at JobApplyPro includes but isn't limited to:"
+      },
+      {
+        "content": "• Building out of form validation and user authentication using role based access control",
+        "indent": true
+      },
+      {
+        "content": "• Building and managing UI / base components using Javascript, React, and TypeScript",
+        "indent": true
+      },
+      {
+        "content": "• Implementing error handling and event notification system",
+        "indent": true
+      },
+      {
+        "content": "• Building and managing marketing site using Next.js and React",
+        "indent": true
+      },
+      {
+        "header": "UniWhales.io"
+      },
+      "Contract Web Developer",
+      {
+        "content": "• Architected landing page for product marketing campaign using HTML, CSS/SCSS and JavaScript",
+        "indent": true
+      },
+      {
+        "content": "• Designed logo using Adobe CS and Figma based on stakeholder’s vision",
+        "indent": true
+      },
+      {
+        "content": "• Integrated email subscription service to custom UI components",
+        "indent": true
+      },
+      {
+        "section": "Projects"
+      },
+      {
+        "header": "ServicesServicesServices"
+      },
+      {
+        "link": true,
+        "content": "{\"link\": \"ServicesServicesServices\", \"url\": \"/resume/Microservice%20Architecture\", \"internal\": true} is a fake product page used as an example of mircoservice architecture. Three microservices, a product description service, an image carousel and a reviews service can work independently but are served together in one html file through a reverse-proxy server."
+      },
+      {
+        "header": "Say What?"
+      },
+      {
+        "link": true,
+        "content": "{\"link\": \"Say What?\", \"url\": \"https://say-what-data-visualizer.herokuapp.com/\"} is an app used to display lyric data of Billboard's Top 100 songs of each of the last 50 years (1970 - 2020). This tinker-project is currently a work in progress."
+      },
+      {
+        "section": "Education"
+      },
+      {
+        "header": "Hack Reactor - 2020"
+      },
+      "Advanced Software Engineering Immersive Program",
+      {
+        "header": "Minnesota State University - 2011 - 2015"
+      },
+      "Studio Art - Drawing and Painting Emphasis"
+    ],
+    "box": [
+      {
+        "link": "Technical Skills",
+        "destination": "Technical Skills"
+      },
+      {
+        "header": "Professional Experience",
+        "list": [
+          {
+            "link": "JobApplyPro",
+            "destination": "JobApplyPro"
+          },
+          "Galvanize Inc.",
+          "UniWhales.io"
+        ]
+      },
+      {
+        "header": "Projects",
+        "list": [
+          {
+            "link": "ServicesServicesServices",
+            "destination": "Microservice Architecture"
+          },
+          {
+            "link": "Say What? Data Visualizer",
+            "destination": "Say What?"
+          }
+        ]
+      },
+      {
+        "header": "Education",
+        "list": [
+          "Hack Reactor",
+          "Minnesota State University"
+        ]
+      }
+    ]
+  },
+  "Technical Skills": {
+    "header": "Technical Skills",
+    "description": [
+      "I'm a full stack engineer who likes building things and talking about it. Learning new things is fun and teaching others about them is just as good.",
+      {
+        "header": "Client-side",
+        "content": "JavaScript (TypeScript, ES5+), HTML5, CSS3, SASS/SCSS, React, Redux, jQuery, Styled-Components"
+      },
+      {
+        "header": "Server-side",
+        "content": "Node.js, Express, RESTful API Development"
+      },
+      {
+        "header": "Databases and ORMs",
+        "content": "MySQL, PostgreSQL, SQLite, Cassandra, MongoDB, Mongoose.js, Sequelize, Knex.js"
+      },
+      {
+        "header": "Testing",
+        "content": "Mocha, Chai, Jest, Enzyme, React-testing-library, Jasmine, Loader io, New Relic"
+      },
+      {
+        "header": "Deployment",
+        "content": "AWS (EC2/ECS S3), Docker, Heroku"
+      },
+      {
+        "header": "Development Tools",
+        "content": "Git, Webpack, Babel, Next.js"
+      }
+    ]
+  },
+  "JobApplyPro": {
+    "header": "JobApplyPro",
+    "description": [
+      {
+        "link": true,
+        "content": "{\"link\": \"JobApplyPro\", \"url\": \"https://jobapplypro.com\"} is a professional job search CRM giving users the ability to submit personalized job applications anywhere on the internet in a few clicks."
+      },
+      {
+        "header": "Software Engineer"
+      },
+      "Engineer working with React, Redux, Next.js. Some contributions include: ",
+      {
+        "content": "• Building out of form validation and user authentication using role based access control",
+        "indent": true
+      },
+      {
+        "content": "• Designing and managing UI / base components using Javascript, React, and TypeScript",
+        "indent": true
+      },
+      {
+        "content": "• Implementing error handling and event notification system",
+        "indent": true
+      },
+      {
+        "content": "• Building and managing marketing site using Next.js and React",
+        "indent": true
+      },
+      {
+        "content": "• Constructing front end unit tests using Jest and React Testing Library",
+        "indent": true
+      }
+    ],
+    "box": [
+      {
+        "header": "Technologies",
+        "list": [
+          "React",
+          "Redux",
+          "Chart.js",
+          "Jest / React Testing Library",
+          "Next.js"
+        ]
+      }
+    ]
+  },
+  "Say What": {
+    "header": "Say What?",
+    "description": [
+      {
+        "link": true,
+        "content": "{\"link\": \"Say What?\", \"url\": \"https://say-what-data-visualizer.herokuapp.com/\"} is fullstack web applicaion used to display lyric data of Billboard's Top 100 songs of each of the last 50 years (1970 - 2020). Using modern design, data is presented as interactive and easily digestible. Lyric data was gathered by programatically scraping GENUIS's lyric database and inserted into an optimized Postgres DB."
+      },
+      "This app is a work in progress; I hope to add more content as time permits."
+    ],
+    "box": [
+      {
+        "header": "Front End",
+        "list": [
+          "React",
+          "D3.js",
+          "Webpack"
+        ]
+      },
+      {
+        "header": "Back End",
+        "list": [
+          "Node",
+          "Express",
+          "Postgress",
+          "Sequelize"
+        ]
+      }
+    ],
+    "pictures": [
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/saywhat/billboard.png",
+        "caption": "Content served via Node.js"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/saywhat/chart.png",
+        "caption": "Visualizations built with D3.js"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/saywhat/swdemo.gif"
+      }
+    ]
+  },
+  "Pup Fetcher": {
+    "header": "Pup Fetcher: React Hooks Lesson",
+    "description": [
+      {
+        "link": true,
+        "content": "\"Pup Fetcher\" is a {\"link\": \"demo repository\", \"url\": \"https://github.com/shawn-chambers/pup-fetcher\"} made for a live coding lecture during my time as a Software Engineering Immersive Resident (SEIR) working for Hack Reactor's Remote Campus. Speaking to students familiar with React's class components, I aimed to give an introduction and basic demonstration of React Hooks. Topics included the useState and useEffect hooks as well as a quick example of a reusable custom hook. The app itself uses Dog API to display a random dog picture based on a breed inputted by the user."
+      },
+      {
+        "link": true,
+        "content": "The {\"link\": \"slide deck\", \"url\": \"https://slides.com/shawnchambers/hooks\"} and {\"link\": \"repo\", \"url\": \"https://github.com/shawn-chambers/pup-fetcher\"} can be used in conjunction with the {\"link\": \"recording\", \"url\": \"https://youtu.be/kFxgjBQib9E\"} of my talk to walk through each concept covered. My apologies for the mustache, it was filmed during unprecedented times."
+      }
+    ],
+    "box": [
+      {
+        "header": "Lesson Resources",
+        "list": [
+          {
+            "link": "Video Lecture",
+            "url": "https://youtu.be/kFxgjBQib9E"
+          },
+          {
+            "link": "Demo Repo",
+            "url": "https://github.com/shawn-chambers/pup-fetcher"
+          },
+          {
+            "link": "Lesson Slide-deck",
+            "url": "https://slides.com/shawnchambers/hooks"
+          }
+        ]
+      }
+    ],
+    "pictures": [
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/pup-fetcher/pup-fetcher.png",
+        "caption": "Step 3 of guided lesson"
+      }
+    ]
+  },
+  "Microservice Architecture": {
+    "header": "ServicesServicesServices",
+    "description": [
+      {
+        "link": true,
+        "content": "{\"link\": \"ServicesServicesServices\", \"url\": \"https://github.com/shawn-chambers/servicesServicesServices\"} is a fake product page used as an example of mircoservice architecture. Three microservices, a product description service, an image carousel and a reviews service can work independently but are served together in one html file through a reverse-proxy server."
+      },
+      "The initial GET request from the browser goes to the proxy, retrieving the three service bundles. These bundles each individually make requests to the proxy which are forwarded to their individual Node.js servers. The node servers query their database for product data based on the product ID specified in the url. Each service independently displays the data on the browser, decoupling each service's functionality.",
+      "The product description service shows a persisted description, feature list, and color and size options specific to each product. The image carousel can be navigated with buttons, dragging the main image, or clicking a thumbnail. The reviews section has an infinite scroll, fetching 10 more reviews every time the user reaches the bottom of the page.",
+      "All data was generated programmatically using custom generation scripts and fakerjs.",
+      {
+        "box": true
+      }
+    ],
+    "pictures": [
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/microservice.png",
+        "caption": "Store front with three independent microservices"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/architecture.png",
+        "caption": "App architecture"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/proxy-functionality.gif",
+        "caption": "Proxy server fetches three bundles and forwards requests to each server"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/image-carousel.gif",
+        "caption": "Image carousel"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/product-description.gif",
+        "caption": "Display updates with mocked data from Postgres DB"
+      },
+      {
+        "url": "https://shawnipedia-pictures.s3-us-west-1.amazonaws.com/microservice_architecture/reviews.gif",
+        "caption": "Infinite scroll fetching 10 reviews at a time"
+      }
+    ],
+    "box": [
+      {
+        "header": "Github",
+        "list": [
+          {
+            "link": "Repo",
+            "url": "https://github.com/shawn-chambers/servicesServicesServices"
+          }
+        ]
+      },
+      {
+        "header": "Front End",
+        "list": [
+          "React",
+          "Webpack",
+          "Styled-Components"
+        ]
+      },
+      {
+        "header": "Back End",
+        "list": [
+          "Express",
+          "Node",
+          "Sequelize",
+          "Postgres",
+          "MongoDB",
+          "Mongoose",
+          "Jest / Supertest"
+        ]
+      }
+    ]
+  },
+  "Contact Info": {
+    "header": "Contact Information",
+    "description": [
+      {
+        "header": "Email:"
+      },
+      {
+        "link": true,
+        "content": "{\"link\": \"chambers.shawn.89@gmail.com\", \"url\": \"mailto: chambers.shawn.89@gmail.com\"}"
+      }
+    ]
+  }
+}
