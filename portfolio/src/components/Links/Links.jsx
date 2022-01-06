@@ -28,7 +28,7 @@ const Links = ({ links }) => {
         } else {
           return (
             <div key={i + 1} className={`home__link home__link--${i + 1}`}>
-              <Link to={`/resume/${d.title}`}>{displayTitle(d.title)}</Link>
+              <Link to={`/resume/${d.title.toLowerCase()}`}>{displayTitle(d.title)}</Link>
               <div className="home__link--subheader">{d.subHeader}</div>
             </div>
           );
