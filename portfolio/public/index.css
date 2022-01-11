@@ -260,7 +260,7 @@ body {
   .picture__caption {
     display: block;
     font-size: 94%;
-    text-align: left;
+    text-align: center;
     line-height: 1.4rem;
     margin: 0.3rem;
     font-family: sans-serif; }

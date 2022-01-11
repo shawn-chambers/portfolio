@@ -4,9 +4,11 @@ import ContentsBox from "../ContentsBox/ContentsBox";
 import Footer from "../Footer/Footer";
 import Carousel from "../Carousel/Carousel";
 import Header from "../Header/Header";
+import Picture from "../Picture/Picture";
 
 const Content = ({ content }) => {
   let displayed = false;
+  let pictureSide = 'left';
 
   const handleLinks = (string) => {
     let content = string
@@ -71,6 +73,16 @@ const Content = ({ content }) => {
                         key={`content-box-${i}`}
                       />
                     </>
+                  );
+                } else if (paragraph.picture) {
+                  pictureSide = pictureSide === 'left' ? 'right' : 'left';
+
+                  return (
+                    <Picture
+                      url={paragraph.picture.url}
+                      caption={paragraph.picture.caption}
+                      side={pictureSide}
+                    />
                   );
                 }
                 return (
