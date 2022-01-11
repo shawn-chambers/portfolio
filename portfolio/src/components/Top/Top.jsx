@@ -35,7 +35,7 @@ const Top = () => {
         </div>
         <div className="home__center">
           <div className="home__logo-container">
-            <Link to="/resume/Resume">
+            <Link to="/resume/resume">
               <Logo />
             </Link>
           </div>
