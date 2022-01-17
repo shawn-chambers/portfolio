@@ -10,14 +10,12 @@ const Top = () => {
 
   useEffect(() => {
     axios
-      .get(
-        "https://shawnipedia.s3-us-west-1.amazonaws.com/shawnipedia-min.json"
-      )
+      .get("https://shawnipedia.s3-us-west-1.amazonaws.com/shawnipedia-min.json")
       .then(({ data }) => {
         setResume(data);
       })
       .catch((err) => {
-        console.log(err);
+        console.log('Error fetching Portfolio JSON', err);
       });
   }, []);
 
@@ -36,7 +34,7 @@ const Top = () => {
         </div>
         <div className="home__center">
           <div className="home__logo-container">
-            <Link to="/resume/Resume">
+            <Link to="/resume/resume">
               <Logo />
             </Link>
           </div>

@@ -2,7 +2,7 @@
   "links": [
     {
       "title": "Resume",
-      "subHeader": "Resumé Page"
+      "subHeader": "An Overview of My Experience and Skills"
     },
     {
       "title": "JobApplyPro",
@@ -106,7 +106,7 @@
         "indent": true
       },
       {
-        "section": "Applications"
+        "section": "Projects"
       },
       {
         "header": "ServicesServicesServices"
@@ -151,7 +151,7 @@
         ]
       },
       {
-        "header": "Applications",
+        "header": "Projects",
         "list": [
           {
             "link": "ServicesServicesServices",

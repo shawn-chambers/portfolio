@@ -7,7 +7,7 @@ import {
   ButtonBack,
 } from "pure-react-carousel";
 
-const Picture = ({ pictures }) => {
+const Carousel = ({ pictures }) => {
   return (
     <div className="picture">
       <CarouselProvider
@@ -43,4 +43,4 @@ const Picture = ({ pictures }) => {
   );
 };
 
-export default Picture;
+export default Carousel;
