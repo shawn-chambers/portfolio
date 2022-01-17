@@ -9,7 +9,7 @@ const Footer = (props) => {
       <div className="footer__links">
         <a
           className="footer__link"
-          href="https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -17,7 +17,7 @@ const Footer = (props) => {
         </a>
         <a
           className="footer__link"
-          href="https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -25,7 +25,7 @@ const Footer = (props) => {
         </a>
         <a
           className="footer__link"
-          href="https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -33,7 +33,7 @@ const Footer = (props) => {
         </a>
         <a
           className="footer__link"
-          href="https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -41,7 +41,7 @@ const Footer = (props) => {
         </a>
         <a
           className="footer__link"
-          href="https://docs.google.com/document/d/16SPyqT4enGb-2_QUSihJj_4AUO5C0V9O72vfAGxI_8s/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
           target="_blank"
           rel="noreferrer noopener"
         >

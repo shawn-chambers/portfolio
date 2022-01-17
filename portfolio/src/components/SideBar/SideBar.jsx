@@ -22,12 +22,27 @@ const SideBar = () => {
         <div className="side-bar__content">
           <nav>
             <ul>
-              <li>Main page</li>
-              <li>Contents</li>
-              <li>Current events</li>
-              <li>Random article</li>
+              <Link to="/">
+                <li>Main page</li>
+              </Link>
+              <Link to="/resume/experience">
+                <li>Experience</li>
+              </Link>
+              <Link to="/resume/projects">
+                <li>Projects</li>
+              </Link>
+              <a
+                className="footer__link"
+                href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <li>Resumé</li>
+              </a>
               <li>About Shawnipedia</li>
-              <li>Contact us</li>
+              <Link to="/resume/contact%20info">
+                <li>Contact Shawn</li>
+              </Link>
             </ul>
           </nav>
           <nav>
