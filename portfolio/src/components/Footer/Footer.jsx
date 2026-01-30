@@ -4,12 +4,11 @@ const Footer = (props) => {
   return (
     <footer className="footer">
       <div className="footer__content">
-        This page was last edited on 25 April 2021, at 3:20 (PST).
-      </div>
+        {props.lastEdited}</div>
       <div className="footer__links">
         <a
           className="footer__link"
-          href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
+          href={props.resumeDocLink}
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -17,7 +16,7 @@ const Footer = (props) => {
         </a>
         <a
           className="footer__link"
-          href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
+          href={props.resumeDocLink}
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -25,7 +24,7 @@ const Footer = (props) => {
         </a>
         <a
           className="footer__link"
-          href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
+          href={props.resumeDocLink}
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -33,7 +32,7 @@ const Footer = (props) => {
         </a>
         <a
           className="footer__link"
-          href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
+          href={props.resumeDocLink}
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -41,7 +40,7 @@ const Footer = (props) => {
         </a>
         <a
           className="footer__link"
-          href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
+          href={props.resumeDocLink}
           target="_blank"
           rel="noreferrer noopener"
         >

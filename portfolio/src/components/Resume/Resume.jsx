@@ -6,6 +6,8 @@ import axios from "axios";
 
 const Resume = (props) => {
   const [page, setPage] = useState("");
+  const [lastEdited, setLastEdited] = useState("");
+  const [resumeDocLink, setResumeDocLink] = useState("");
 
   useEffect(() => {
     axios
@@ -14,14 +16,16 @@ const Resume = (props) => {
       )
       .then(({ data }) => {
         setPage(data[props.match.params.param]);
+        setLastEdited(data.lastEdited);
+        setResumeDocLink(data.resume_doc_link);
       });
   }, [props]);
 
   return (
     <>
       <Gradient />
-      <SideBar />
-      {page && <Content content={page} />}
+      <SideBar resumeDocLink={resumeDocLink} />
+      {page && <Content content={page} lastEdited={lastEdited} resumeDocLink={resumeDocLink} />}
     </>
   );
 };
