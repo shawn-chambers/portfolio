@@ -11,10 +11,9 @@ const Resume = (props) => {
 
   useEffect(() => {
     axios
-      .get("/data/portfolio.json")
-      // .get(
-      //   "https://shawnipedia.s3-us-west-1.amazonaws.com/shawnipedia-min.json"
-      // )
+      .get(
+        "https://shawnipedia.s3-us-west-1.amazonaws.com/shawnipedia-min.json"
+      )
       .then(({ data }) => {
         setPage(data[props.match.params.param]);
         setLastEdited(data.lastEdited);
