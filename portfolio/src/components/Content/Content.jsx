@@ -6,7 +6,7 @@ import Carousel from "../Carousel/Carousel";
 import Header from "../Header/Header";
 import Picture from "../Picture/Picture";
 
-const Content = ({ content }) => {
+const Content = ({ content, lastEdited, resumeDocLink }) => {
   let displayed = false;
   let pictureSide = 'left';
 
@@ -40,7 +40,6 @@ const Content = ({ content }) => {
             return (
               <>
                 <span key={`content-${new Date().getTime()}`}>{el}</span>
-                {console.log(`content-${new Date().getTime()}`)}
               </>
             );
           }
@@ -92,7 +91,6 @@ const Content = ({ content }) => {
                         className="resume__content--section-header"
                         key={`header-${i}`}
                       >
-                        {console.log(`header-${i}`)}
                         <h2>{paragraph.section}</h2>
                         <hr></hr>
                       </div>
@@ -119,7 +117,7 @@ const Content = ({ content }) => {
             {!displayed && <ContentsBox contents={content.box} />}
           </div>
         </div>
-        <Footer />
+        <Footer lastEdited={lastEdited} resumeDocLink={resumeDocLink} />
       </div>
     </>
   );

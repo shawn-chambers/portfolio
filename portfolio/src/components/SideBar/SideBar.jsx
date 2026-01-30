@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import smallLogo from "../../assets/images/small_shawnipedia.png";
 
-const SideBar = () => {
+const SideBar = (props) => {
   return (
     <>
       <div className="side-bar">
@@ -33,7 +33,7 @@ const SideBar = () => {
               </Link>
               <a
                 className="footer__link"
-                href="https://drive.google.com/file/d/1ZFevsxKxIhBqYq_eFTmDkPCR2uVr0n5d/view?usp=sharing"
+                href={props.resumeDocLink}
                 target="_blank"
                 rel="noreferrer noopener"
               >
