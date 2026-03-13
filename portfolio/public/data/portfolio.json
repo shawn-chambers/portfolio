@@ -1,6 +1,6 @@
 {
   "lastEdited": "This page was last edited on 23 January 2026, at 8:20 (PST).",
-  "resume_doc_link": "https://drive.google.com/file/d/11mZZlyJ1PRWXwrZdB5dbq3HCedU9ueh1/view?usp=sharing",
+  "resume_doc_link": "https://drive.google.com/file/d/1e9db1tnrldeOV8B9dwUtfl9Q1yuFW4dv/view?usp=sharing",
   "links": [
     {
       "title": "Resume",
@@ -12,7 +12,7 @@
     },
     {
       "title": "Resume Doc",
-      "url": "https://drive.google.com/file/d/11mZZlyJ1PRWXwrZdB5dbq3HCedU9ueh1/view?usp=sharing",
+      "url": "https://drive.google.com/file/d/1e9db1tnrldeOV8B9dwUtfl9Q1yuFW4dv/view?usp=sharing",
       "subHeader": "Link to Resumé Document"
     },
     {
@@ -51,7 +51,7 @@
     "description": [
       {
         "link": true,
-        "content": "I am a {\"link\": \"Full Stack Engineer\", \"url\": \"https://drive.google.com/file/d/11mZZlyJ1PRWXwrZdB5dbq3HCedU9ueh1/view?usp=sharing\"}  currently living in the Sacramento area of Northern California. I enjoy playing guitar (electric, acoustic, and bass) for my noisy, creative outlet and drawing as my 'quiet, the kids are sleeping' cathartic time."
+        "content": "I am a {\"link\": \"Full Stack Engineer\", \"url\": \"https://drive.google.com/file/d/1e9db1tnrldeOV8B9dwUtfl9Q1yuFW4dv/view?usp=sharing\"}  currently living in the Sacramento area of Northern California. I enjoy playing guitar (electric, acoustic, and bass) for my noisy, creative outlet and drawing as my 'quiet, the kids are sleeping' cathartic time."
       },
       {
         "box": true
@@ -75,23 +75,19 @@
         "content": "While working as a Software Engineer at {\"link\": \"Xano\", \"url\": \"/resume/xano\", \"internal\": true} our engineering team worked at a quick, relentless pace. Some of my contributions included:"
       },
       {
-        "content": "• Developing robust component library using latest Angular versions, improving code reusability across platform",
+        "content": "• Contributed design input and engineered personalized onboarding experience with tutorials and interactive, use-case-specific landing pages, resulting in 98.7% increase in paid account signups",
         "indent": true
       },
       {
-        "content": "• Enhancing user experience by implementing accessibility features including keyboard navigation, custom code editor, and feature flagging system for administrative controls",
+        "content": "• Built integrated AI agent leveraging custom Language Server Protocol (LSP), yielding multiple chat experiences achieving 79% user acceptance rate on AI-generated code suggestions",
         "indent": true
       },
       {
-        "content": "• Integrating AI-powered chat experiences to streamline user workflows and improve product engagement",
+        "content": "• Enhanced user experience by implementing accessibility features using Angular and NgRx; including keyboard navigation, custom code editor, and feature flagging system for administrative controls",
         "indent": true
       },
       {
-        "content": "• Designing and building dynamic marketplace for Agency Partners to showcase and distribute for hire services",
-        "indent": true
-      },
-      {
-        "content": "• Collaborating with product team to design and build intuitive interfaces for specialized use cases",
+        "content": "• Collaborated with CTO and product team to translate product vision into technical implementation, creating wireframes and design specifications autonomously in Figma to bridge product design gap and accelerate feature delivery across rapidly evolving platform",
         "indent": true
       },
       {
@@ -339,10 +335,11 @@
       {
         "header": "Experience"
       },
-      "As a full stack engineer at Xano, I contributed to features across the platform, from AI integrations to marketplace systems to core UI improvements.",
-      "I developed multiple AI chat interfaces that integrated directly into user workflows, providing contextual assistance with API logic building, SQL query construction, and JavaScript development. These chat experiences also handled Node package imports and dependency management, letting users add functionality through conversation rather than manual configuration.",
-      "I designed and built two distinct marketplace systems. The Connection marketplace allowed users to discover and integrate external tools that could use Xano as their backend—expanding the platform's ecosystem beyond our native features. The Agency Partner marketplace connected users with vetted expert agencies, giving them options to get consultation or hire agencies to build solutions for them.",
-      "With my background in fine art, I was able to make design decisions independently during feature development, reducing bottlenecks and accelerating delivery. Across every feature I built, I prioritized intuitive, cohesive UX that modernized the platform while maintaining consistency with existing workflows. This meant constantly updating and refining the UI as the product evolved, ensuring new capabilities felt natural rather than tacked on."
+      "As a full stack engineer at Xano, I contributed to features across the platform, from AI integrations to accessibility improvements to core UI work. Some significant accomplishments included contributing design input and engineering a personalized onboarding experience with tutorials and interactive, use-case-specific landing pages that resulted in a 98.7% increase in paid account signups.",
+      "I built an integrated AI agent leveraging a custom Language Server Protocol (LSP) that achieved a 79% user acceptance rate on code suggestions. This involved developing multiple AI chat interfaces that integrated directly into user workflows, providing contextual assistance with API logic building, SQL query construction, and JavaScript development. These chat experiences also handled Node package imports and dependency management, letting users add functionality through conversation rather than manual configuration.",
+      "I also designed and built two distinct marketplace systems. The Connection marketplace allowed users to discover and integrate external tools that could use Xano as their backend—expanding the platform's ecosystem beyond our native features. The Agency Partner marketplace connected users with vetted expert agencies, giving them options to get consultation or hire agencies to build solutions for them.",
+      "I enhanced the platform with accessibility features including keyboard navigation, a custom code editor, and feature flagging for administrative controls.",
+      "Without a dedicated product designer on the team, I created wireframes and design specifications autonomously in Figma throughout feature development, reducing bottlenecks and accelerating delivery. Across every feature I built, I prioritized intuitive, cohesive UX that modernized the platform while maintaining consistency with existing workflows. This meant constantly updating and refining the UI as the product evolved, ensuring new capabilities felt natural rather than tacked on."
     ],
     "box": [
       {
@@ -665,7 +662,8 @@
         "content": "From {\"link\": \"Xano's\", \"url\": \"https://www.xano.com/\"} website: \"Xano is a unified backend-as-a-service platform that lets developers build and run APIs, databases, and server-side logic using visual tools, code, and AI—without managing infrastructure.\""
       },
       "As a Software Engineer at Xano, I worked at a quick, relentless pace as the platform evolved from a low-code tool into an AI-assisted backend service. Leadership shifted our target user persona multiple times as AI reshaped the industry, so our team built new features constantly and iterated rapidly. During this period, Xano secured Series A funding, scaled to over 100,000 users, and achieved 10x ARR growth.",
-      "I met regularly with the CTO and head of product to discuss feature direction and technical feasibility, translating product vision into implementation plans. With my background in fine art, I made design decisions independently during development, reducing bottlenecks and accelerating delivery. Across every feature, I focused on modernizing the platform's UI/UX while maintaining consistency with existing workflows.",
+      "I met regularly with the CTO and head of product to discuss feature direction and technical feasibility, translating product vision into technical implementation. Without a dedicated product designer on the team, I created wireframes and design specifications autonomously in Figma, bridging the product design gap and accelerating feature delivery. Some significant accomplishments included contributing design input and engineering a personalized onboarding experience with tutorials and interactive, use-case-specific landing pages that resulted in a 98.7% increase in paid account signups. I also built an integrated AI agent leveraging a custom Language Server Protocol that achieved a 79% user acceptance rate on code suggestions, and enhanced the platform with accessibility features including keyboard navigation, a custom code editor, and feature flagging for administrative controls.",
+      "Across every feature I built, I focused on modernizing the platform's UI/UX while maintaining consistency with existing workflows.",
       "The platform was built with TypeScript and Angular, using NgRx for state management. I wrote unit tests with Jest and contributed to internal APIs using PHP.",
       {
         "section": "EKA Solutions, Inc., 2022"

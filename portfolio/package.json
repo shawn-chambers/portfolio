@@ -16,11 +16,11 @@
     "styled-components": "^5.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "compile:sass": "node-sass src/sass/main.scss public/index.css -w"
+    "compile:sass": "sass src/sass/main.scss public/index.css --watch"
   },
   "eslintConfig": {
     "extends": "react-app"
