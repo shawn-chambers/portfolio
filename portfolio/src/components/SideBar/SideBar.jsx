@@ -15,7 +15,7 @@ const SideBar = (props) => {
               <span>S</span>
             </div>
             <div className="side-bar__menu--sub-header-mini">
-              Web Developer - CA
+              Software Engineer - CA
             </div>
           </Link>
         </div>

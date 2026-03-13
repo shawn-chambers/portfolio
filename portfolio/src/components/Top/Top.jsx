@@ -29,7 +29,7 @@ const Top = () => {
             <span>S</span>
           </div>
           <div className="home__header--sub">
-            Web Developer - Sacramento, CA
+            Software Engineer - Sacramento, CA
           </div>
         </div>
         <div className="home__center">
